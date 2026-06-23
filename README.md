@@ -3,36 +3,43 @@
 <!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
 <!-------------------------------------------------------->
 
-<h2> Qompass AI Dotfiles </h2>
+<h2> Qompass AI Salesforce </h2>
 
-<h3> Qompass AI dotfiles (ie xdg .config files) </h3>
+<h3> Qompass AI on Salesforce: From Apex to Trailheads & Beyond </h3>
 
-![Repository Views](https://komarev.com/ghpvc/?username=qompassai-dotfiles)
-![GitHub all releases](https://img.shields.io/github/downloads/qompassai/dotfiles/total?style=flat-square)
+![Repository Views](https://komarev.com/ghpvc/?username=qompassai-salesforce)
+![GitHub all releases](https://img.shields.io/github/downloads/qompassai/salesforce/total?style=flat-square)
 
 <p align="center">
-  <a href="https://wiki.archlinux.org/title/XDG_Base_Directory">
-    <img src="https://img.shields.io/badge/XDG/Dotfiles-1793D1?style=for-the-badge&logo=linux&logoColor=white"
-      alt="XDG and Dotfiles">
+  <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm">
+    <img src="https://img.shields.io/badge/Salesforce-DX-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white"
+      alt="Salesforce DX">
   </a>
   <br>
-  <a href="https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html">
-    <img src="https://img.shields.io/badge/XDG_Spec-blue?style=flat-square" alt='XDG Specification'>
+  <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference">
+    <img src="https://img.shields.io/badge/Salesforce_CLI-Command_Reference-blue?style=flat-square"
+      alt="Salesforce CLI Command Reference">
   </a>
-  <a href="https://wiki.archlinux.org/title/Dotfiles">
-    <img src="https://img.shields.io/badge/Dotfiles_Documentation-blue?style=flat-square" alt="Dotfiles Documentation">
+  <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm">
+    <img src="https://img.shields.io/badge/Apex-Developer_Guide-blue?style=flat-square"
+      alt="Apex Developer Guide">
   </a>
-  <a href="https://github.com/topics/dotfiles">
-    <img src="https://img.shields.io/badge/Dotfiles_Tutorials-green?style=flat-square" alt="Dotfiles Tutorials">
+  <a href="https://developer.salesforce.com/docs">
+    <img src="https://img.shields.io/badge/Salesforce-Developer_Docs-green?style=flat-square"
+      alt="Salesforce Developer Docs">
   </a>
   <br>
   <a href="https://doi.org/10.5281/zenodo.16171391">
-  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16171391.svg" alt="DOI">
-</a>
-  <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg"
-      alt="License: AGPL v3"></a>
-  <a href="./LICENSE-QCDA"><img src="https://img.shields.io/badge/license-Q--CDA-lightgrey.svg"
-      alt="License: Q-CDA"></a>
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16171391.svg" alt="DOI">
+  </a>
+  <a href="https://www.gnu.org/licenses/agpl-3.0">
+    <img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg"
+      alt="License: AGPL v3">
+  </a>
+  <a href="./LICENSE-QCDA">
+    <img src="https://img.shields.io/badge/license-Q--CDA-lightgrey.svg"
+      alt="License: Q-CDA">
+  </a>
 </p>
 
 <details>
