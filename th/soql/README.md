@@ -17,7 +17,7 @@ mkdir -p force-app/main/default/classes
 mkdir -p scripts/apex
 ```
 
-`sf org list` shows your authorized orgs, and `sf config set target-org=...` lets later commands use your default org automatically.[4]
+`sf org list` shows your authorized orgs, and `sf config set target-org=...` lets later commands use your default org automatically.
 
 ## What the challenge wants
 
@@ -57,11 +57,11 @@ public with sharing class AccountUtility {
 }
 ```
 
-This implementation matches the challenge requirements for the class name, method signature, queried fields, loop, `acctRev` variable, and debug output format.[2][6]
+This implementation matches the challenge requirements for the class name, method signature, queried fields, loop, `acctRev` variable, and debug output format.
 
 ## 2. Create the Apex metadata file
 
-Salesforce source format stores Apex classes as a `.cls` file plus a matching `-meta.xml` file.[7][4]
+Salesforce source format stores Apex classes as a `.cls` file plus a matching `-meta.xml` file.
 
 Create the metadata file:
 
