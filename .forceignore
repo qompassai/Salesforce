@@ -1,0 +1,6 @@
+# .forceignore
+**/.sfdx
+**/.sf
+**/.vscode
+**/jsconfig.json
+**/.eslintrc.json
