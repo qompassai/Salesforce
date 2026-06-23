@@ -1,0 +1,45 @@
+set shell := ["bash", "-eu", "-o", "pipefail", "-c"]
+
+alias := "trailheadPlayground"
+class := "Teatime"
+class_path := "force-app/main/default/classes/{{class}}.cls"
+classes_dir := "force-app/main/default/classes"
+
+default:
+    just --list
+
+org-list:
+    sf org list
+
+org-open:
+    sf org open --target-org {{ alias }}
+
+org-display:
+    sf org display --target-org {{ alias }}
+
+deploy:
+    sf project deploy start --source-dir {{ class_path }} --target-org {{ alias }}
+
+deploy-all:
+    sf project deploy start --source-dir force-app --target-org {{ alias }}
+
+retrieve-class:
+    sf project retrieve start --metadata ApexClass:{{ class }} --target-org {{ alias }}
+
+retrieve-all:
+    sf project retrieve start --source-dir force-app --target-org {{ alias }}
+
+new-class name:
+    sf apex generate class --name {{ name }} --output-dir {{ classes_dir }}
+
+run-apex file:
+    sf apex run --file {{ file }} --target-org {{ alias }}
+
+test-all:
+    sf apex run test --target-org {{ alias }} --result-format human --synchronous
+
+test-class name:
+    sf apex run test --target-org {{ alias }} --tests {{ name }} --result-format human --synchronous
+
+teatime:
+    sf project deploy start --source-dir force-app/main/default/classes/Teatime.cls --target-org {{ alias }}

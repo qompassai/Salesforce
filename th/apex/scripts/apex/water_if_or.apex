@@ -1,0 +1,7 @@
+String waterLevel = 'half';
+if (waterLevel == 'empty' || waterLevel == 'half') {
+    System.debug('Fill the tea kettle');
+    waterLevel = 'full';
+} else { // This statement only runs if line 3 is false.
+    System.debug('The tea kettle is full');
+}

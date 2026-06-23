@@ -1,0 +1,13 @@
+{
+  "name": "trailhead-apex",
+  "namespace": "",
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "67.0",
+  "oauthLocalPort": 1718
+}

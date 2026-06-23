@@ -1,0 +1,8 @@
+String[] groceries = new String[8];
+System.debug('Groceries: ' + groceries);
+groceries.add('Tea');
+groceries.add('Sugar');
+System.debug('Added 2 items: ' + groceries);
+groceries.add(1, 'Honey');
+System.debug('Added Honey in index 1: ' + groceries);
+System.debug('Item 0: ' + groceries);

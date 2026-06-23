@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-ac5e46b3acf8909ddefea3fe79f1eeb8be7e1e54bcfea71d3a3953d8a3c28fe8.js",
+    "@hotwired/turbo-rails": "/assets/@hotwired--turbo-rails-adc29aa8f8a030ffa92ade5b553f89b1a4ae10676c3e4a0b01d9748c133b3942.js",
+    "@hotwired/turbo": "/assets/@hotwired--turbo-b61d77ef2858c8bd38af6c8930b19807d2005934fb8ce48bc2446277639325bf.js",
+    "@rails/actioncable/src": "/assets/@rails--actioncable--src-afd872b90019e6e7e78bc2dccb876c7cb89626d3f9bedc1c781579eae9b8a05b.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-d0cc09fde2fe26e659ee153c59c6838a8d8cbc9bb2ca9116a7d5c0cb6d8c2def.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-b3a1143d54e5e70612a391e9046013c47906eea23924a86ca6aaf46b77c383f9.js",
+    "controllers/agent_chat_session_form_controller": "/assets/controllers/agent_chat_session_form_controller-5c005c9d896f61da780fd2ca371f34ea50fb18da43c3847de88e671293217fe8.js",
+    "controllers/application": "/assets/controllers/application-412b06f3638c99a754e598dabb79f85f16c261c52f019b2f412934dc0bb86071.js",
+    "controllers/audio_player_controller": "/assets/controllers/audio_player_controller-c5ab5839ab0b89e9c5ea62a6131549ff379306a06e9c3dfeae6607c24f1d8ed4.js",
+    "controllers/button_link_controller": "/assets/controllers/button_link_controller-3c8b84956078dc6e943a3c0443fe75d00da028768915a81a8cb05125f2817415.js",
+    "controllers/context_nav_controller": "/assets/controllers/context_nav_controller-ff54fc746a36a0aecdf85b80b3e7ce5fc822391d4791fdbcf6bca78f5b933264.js",
+    "controllers/dropdown_controller": "/assets/controllers/dropdown_controller-5cc994d75ffe527900ffab08675193115d171e9d3b7f8fe816cfd2a74594dedb.js",
+    "controllers/hero_controller": "/assets/controllers/hero_controller-0fd1f4cea27db56059e878c142ef203fd8bcf620e6b77662cdfb5bbac8f11530.js",
+    "controllers": "/assets/controllers/index-b3f0ee67c2a150ddd7258bd94e78ae00fa1a134507f969aceb055bb08f678c6d.js",
+    "controllers/learn_by_product_controller": "/assets/controllers/learn_by_product_controller-90ebd3f2d12c4c64d6f329fd889500220333e4d43520478fab14dc3d804cebf0.js",
+    "controllers/menu_controller": "/assets/controllers/menu_controller-5150307f61bdeee2e4b13b137573aa57f703990a577c24eade36bafbe4cb9188.js",
+    "controllers/mobile_nav_controller": "/assets/controllers/mobile_nav_controller-6cfa1f468d43d2950c3e90abdc88b2d9734d4c30d80b770b21bbef6d89000706.js",
+    "controllers/modal_controller": "/assets/controllers/modal_controller-6c969d7c3248e7b6310fd85cc94377ad8fefa6475849d91ad3813c37ae3066cf.js",
+    "controllers/pbc_accordion_controller": "/assets/controllers/pbc_accordion_controller-7cae7d914f876478513a8ca5e9d19ff169f04b32d8f23c88023629afdb1ff1f2.js",
+    "controllers/pbc_carousel_controller": "/assets/controllers/pbc_carousel_controller-ce526c967ac4e2b06d62b2c929a3ea1abfa45f57f5908911430e29db556551af.js",
+    "controllers/pbc_tabs_controller": "/assets/controllers/pbc_tabs_controller-2adce3091fed293fbf0ac973d2b55d9b2988f9ebf89848242fb92174243e5ffd.js",
+    "controllers/promo_controller": "/assets/controllers/promo_controller-7e007d79125c88b6f5d39f9ff6b4611e25136a13b118b0d8f3f6b717d88638ca.js",
+    "controllers/sfdc_product_links_controller": "/assets/controllers/sfdc_product_links_controller-34dbb913a8c35a2351cf38838af035c2c399a18d5366c890b02dede65ee35a3c.js",
+    "controllers/sidebar_nav_controller": "/assets/controllers/sidebar_nav_controller-a458b8eaf165a05b619463dce2c90df75dc182d0b14a0585e3de68077858f59e.js",
+    "controllers/site_notifier_form_controller": "/assets/controllers/site_notifier_form_controller-178d391b312e208dd4b62c3a4c6dd815896b70903dfd58bacffa73f240f981bb.js",
+    "controllers/today_frame_links_controller": "/assets/controllers/today_frame_links_controller-c3e6a5b13c5bbf51805549aa86c0fddc4ec1e24ac98009fee00009561a0363b9.js",
+    "controllers/today_preferences_controller": "/assets/controllers/today_preferences_controller-405218038ccd3185540cdf14aa30cdfb719e7d90c3736ce7a99f3a12010ebaa0.js",
+    "controllers/trailcast_controller": "/assets/controllers/trailcast_controller-8e28575747aaa362f81712a52520e97a55b0c796d7aa63e64853c696a980bf69.js",
+    "controllers/trailcast_tracking_controller": "/assets/controllers/trailcast_tracking_controller-8acefd460f8e9a8477e20b6eff1ae6a3acfa6cdeae2a09f05b25db74f0dcd9d6.js",
+    "utils/cookies": "/assets/utils/cookies-2015313829e453c86fcbf5f8ed05fb85609e35ab3e95effbd053ad5b6a171fc7.js",
+    "utils/keyboard": "/assets/utils/keyboard-207408971c1dcceeb5492abeebde4ca682b3e5786f2909bf8b8a5bc5664a5261.js",
+    "utils/time": "/assets/utils/time-0ae92e6568d9a85b8dd8f7b5d936b39300e688e9406688a22071e3338d013bec.js",
+    "utils/tracking": "/assets/utils/tracking-86964edae552130435b5d9146721a4817fc713786fbe10ed87da02acd5ecc418.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-ac5e46b3acf8909ddefea3fe79f1eeb8be7e1e54bcfea71d3a3953d8a3c28fe8.js">
+<link rel="modulepreload" href="/assets/@hotwired--turbo-rails-adc29aa8f8a030ffa92ade5b553f89b1a4ae10676c3e4a0b01d9748c133b3942.js">
+<link rel="modulepreload" href="/assets/@hotwired--turbo-b61d77ef2858c8bd38af6c8930b19807d2005934fb8ce48bc2446277639325bf.js">
+<link rel="modulepreload" href="/assets/@rails--actioncable--src-afd872b90019e6e7e78bc2dccb876c7cb89626d3f9bedc1c781579eae9b8a05b.js">
+<link rel="modulepreload" href="/assets/stimulus.min-d0cc09fde2fe26e659ee153c59c6838a8d8cbc9bb2ca9116a7d5c0cb6d8c2def.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-b3a1143d54e5e70612a391e9046013c47906eea23924a86ca6aaf46b77c383f9.js">
+<link rel="modulepreload" href="/assets/controllers/agent_chat_session_form_controller-5c005c9d896f61da780fd2ca371f34ea50fb18da43c3847de88e671293217fe8.js">
+<link rel="modulepreload" href="/assets/controllers/application-412b06f3638c99a754e598dabb79f85f16c261c52f019b2f412934dc0bb86071.js">
+<link rel="modulepreload" href="/assets/controllers/audio_player_controller-c5ab5839ab0b89e9c5ea62a6131549ff379306a06e9c3dfeae6607c24f1d8ed4.js">
+<link rel="modulepreload" href="/assets/controllers/button_link_controller-3c8b84956078dc6e943a3c0443fe75d00da028768915a81a8cb05125f2817415.js">
+<link rel="modulepreload" href="/assets/controllers/context_nav_controller-ff54fc746a36a0aecdf85b80b3e7ce5fc822391d4791fdbcf6bca78f5b933264.js">
+<link rel="modulepreload" href="/assets/controllers/dropdown_controller-5cc994d75ffe527900ffab08675193115d171e9d3b7f8fe816cfd2a74594dedb.js">
+<link rel="modulepreload" href="/assets/controllers/hero_controller-0fd1f4cea27db56059e878c142ef203fd8bcf620e6b77662cdfb5bbac8f11530.js">
+<link rel="modulepreload" href="/assets/controllers/index-b3f0ee67c2a150ddd7258bd94e78ae00fa1a134507f969aceb055bb08f678c6d.js">
+<link rel="modulepreload" href="/assets/controllers/learn_by_product_controller-90ebd3f2d12c4c64d6f329fd889500220333e4d43520478fab14dc3d804cebf0.js">
+<link rel="modulepreload" href="/assets/controllers/menu_controller-5150307f61bdeee2e4b13b137573aa57f703990a577c24eade36bafbe4cb9188.js">
+<link rel="modulepreload" href="/assets/controllers/mobile_nav_controller-6cfa1f468d43d2950c3e90abdc88b2d9734d4c30d80b770b21bbef6d89000706.js">
+<link rel="modulepreload" href="/assets/controllers/modal_controller-6c969d7c3248e7b6310fd85cc94377ad8fefa6475849d91ad3813c37ae3066cf.js">
+<link rel="modulepreload" href="/assets/controllers/pbc_accordion_controller-7cae7d914f876478513a8ca5e9d19ff169f04b32d8f23c88023629afdb1ff1f2.js">
+<link rel="modulepreload" href="/assets/controllers/pbc_carousel_controller-ce526c967ac4e2b06d62b2c929a3ea1abfa45f57f5908911430e29db556551af.js">
+<link rel="modulepreload" href="/assets/controllers/pbc_tabs_controller-2adce3091fed293fbf0ac973d2b55d9b2988f9ebf89848242fb92174243e5ffd.js">
+<link rel="modulepreload" href="/assets/controllers/promo_controller-7e007d79125c88b6f5d39f9ff6b4611e25136a13b118b0d8f3f6b717d88638ca.js">
+<link rel="modulepreload" href="/assets/controllers/sfdc_product_links_controller-34dbb913a8c35a2351cf38838af035c2c399a18d5366c890b02dede65ee35a3c.js">
+<link rel="modulepreload" href="/assets/controllers/sidebar_nav_controller-a458b8eaf165a05b619463dce2c90df75dc182d0b14a0585e3de68077858f59e.js">
+<link rel="modulepreload" href="/assets/controllers/site_notifier_form_controller-178d391b312e208dd4b62c3a4c6dd815896b70903dfd58bacffa73f240f981bb.js">
+<link rel="modulepreload" href="/assets/controllers/today_frame_links_controller-c3e6a5b13c5bbf51805549aa86c0fddc4ec1e24ac98009fee00009561a0363b9.js">
+<link rel="modulepreload" href="/assets/controllers/today_preferences_controller-405218038ccd3185540cdf14aa30cdfb719e7d90c3736ce7a99f3a12010ebaa0.js">
+<link rel="modulepreload" href="/assets/controllers/trailcast_controller-8e28575747aaa362f81712a52520e97a55b0c796d7aa63e64853c696a980bf69.js">
+<link rel="modulepreload" href="/assets/controllers/trailcast_tracking_controller-8acefd460f8e9a8477e20b6eff1ae6a3acfa6cdeae2a09f05b25db74f0dcd9d6.js">
+<link rel="modulepreload" href="/assets/utils/cookies-2015313829e453c86fcbf5f8ed05fb85609e35ab3e95effbd053ad5b6a171fc7.js">
+<link rel="modulepreload" href="/assets/utils/keyboard-207408971c1dcceeb5492abeebde4ca682b3e5786f2909bf8b8a5bc5664a5261.js">
+<link rel="modulepreload" href="/assets/utils/time-0ae92e6568d9a85b8dd8f7b5d936b39300e688e9406688a22071e3338d013bec.js">
+<link rel="modulepreload" href="/assets/utils/tracking-86964edae552130435b5d9146721a4817fc713786fbe10ed87da02acd5ecc418.js">
+<script type="module">import "application"</script>
+<!-- = OneTrust Cookies Consent Notice -->
+<script src="/assets/cookie_consent-c28565def193d82c0fa18781204ec312f74f7f555f13d90fdda0183d68fc9f8a.js"></script>
+<script src="https://a.sfdcstatic.com/digital/one-trust/core/stable/scripttemplates/otSDKStub.js" crossorigin="" data-domain-script="8e783e8c-0ad0-475d-8fca-4a03afa0a02a" async="async"></script>
+
+<meta content='#ffffff' name='msapplication-TileColor'>
+<meta content='browserconfig.xml' name='msapplication-config'>
+<meta content='#ffffff' name='theme-color'>
+<link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'>
+<link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href='/apple-touch-icon-180x180.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/android-chrome-192x192.png' rel='icon' sizes='192x192' type='image/png'>
+<link href='/site.webmanifest' rel='manifest'>
+<link color='#ffffff' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/favicon.ico' rel='shortcut icon'>
+
+<title>Understanding Apex List Collections and Usage</title>
+<meta name="description" content="Explore how to declare, initialize, and manipulate Apex lists effectively. Gain practical coding skills with real examples and improve your coding proficiency.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@trailhead">
+<meta property="fb:app_id" content="140586622674265">
+<meta property="og:site_name" content="Trailhead">
+<meta property="og:title" content="Understanding Apex List Collections and Usage">
+<meta property="og:description" content="Explore how to declare, initialize, and manipulate Apex lists effectively. Gain practical coding skills with real examples and improve your coding proficiency.">
+<meta property="og:image" content="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/cb318c4c53e69345a903fedd62fdee64_badge.png">
+<meta property="og:image:url" content="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/cb318c4c53e69345a903fedd62fdee64_badge.png">
+<meta property="og:image:height" content="250">
+<meta property="og:image:width" content="250">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections">
+<meta name="url" content="https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="tvW6ex7scaZ0PqPE2wo80annQbn_Qsi-GbdZf9XriGmWJ6b8rihKoKOeHYtzrhbATo9BgDKSXoODUm795ac1-w" />
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRBR-b554e5db741e07abbb3","applicationID":"506536273","transactionName":"cFxaREcJCVsARk4TWFpHRx9GDgpA","queueTime":1,"applicationTime":149,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[]},session_trace:{sampling_rate:0.0,mode:"FIXED_RATE",enabled:true,error_sampling_rate:0.0},feature_flags:["soft_nav"],distributed_tracing:{enabled:true,exclude_newrelic_header:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"594513438",accountID:"533461",trustKey:"194015",xpid:"UQUEVVBSGwYAUlRRAQMAVQ==",licenseKey:"NRBR-b554e5db741e07abbb3",applicationID:"506536273",browserID:"594513438"};;/*! For license information please see nr-loader-spa-1.316.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>a,Zm:()=>c,bQ:()=>u,dV:()=>d,pV:()=>l});var n=r(6154),i=r(1863),s=r(944),o=r(1910);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function d(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,o.i)(...Object.values(e.o))),e}function u(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,s.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),d(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}},733:(e,t,r)=>{"use strict";function n(e,t){return function(e){let t=2166136261;for(let r=0;r<e.length;r++)t^=e.charCodeAt(r),t=Math.imul(t,16777619);return(t>>>0).toString(16).padStart(8,"0")}("".concat(String(e),":").concat(String(t)))}r.d(t,{Y:()=>n})},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>u,K7:()=>c,P3:()=>d,XX:()=>i,Yy:()=>a,df:()=>s,qY:()=>n,v4:()=>o});const n="events",i="jserrors",s="browser/blobs",o="rum",a="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},d={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.softNav]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.sessionReplay]:8,[c.logging]:9,[c.genericEvents]:10},u={[c.pageViewEvent]:o,[c.pageViewTiming]:n,[c.ajax]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:s,[c.sessionReplay]:s,[c.logging]:a,[c.genericEvents]:"ins"}},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},993:(e,t,r)=>{"use strict";r.d(t,{A$:()=>s,ET:()=>o,TZ:()=>a,p_:()=>i});var n=r(860);const i={ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"},s={OFF:0,ERROR:1,WARN:2,INFO:3,DEBUG:4,TRACE:5},o="log",a=n.K7.logging},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>a,Ze:()=>d,x3:()=>c});var n=r(3241),i=r(3606),s=r(860),o=r(2646);function a(e,t){if(!e)return;const r={staged:!1,priority:s.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&u(e))}function d(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,u(e)}}function u(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const s=e.ee,a=i.i.handlers;if(s&&!s.aborted&&s.backlog&&a){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=a[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof o.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}s.isolatedBacklog||delete a[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],s=e[2];n.apply(i,s)}})}},1738:(e,t,r)=>{"use strict";r.d(t,{U:()=>f,Y:()=>l});var n=r(3241),i=r(9908),s=r(1863),o=r(944),a=r(3969),c=r(8362),d=r(860),u=r(4261);function l(e,t,r,s){const l=s||r;!l||l[e]&&l[e]!==c.d.prototype[e]||(l[e]=function(){(0,i.p)(a.xV,["API/"+e+"/called"],void 0,d.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:u.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,o.R)(23,e)}})}function f(e,t,r,n,o){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(o||null===r)&&(0,i.p)(u.Pl+n,[(0,s.t)(),t,r],void 0,"session",e.ee)}},1741:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(944),i=r(4261);class s{#e(e,...t){if(this[e]!==s.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},1910:(e,t,r)=>{"use strict";r.d(t,{i:()=>s});var n=r(944);const i=new Map;function s(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),s=t.includes("nrWrapper");return r||s||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},2555:(e,t,r)=>{"use strict";r.d(t,{D:()=>a,f:()=>o});var n=r(384),i=r(8122);const s={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const a=e=>(0,i.a)(e,s)},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>s,Wt:()=>n,g:()=>c,iL:()=>a,tS:()=>o,wk:()=>i});const n="NRBA_SESSION::",i=144e5,s=18e5,o={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},a={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},2843:(e,t,r)=>{"use strict";r.d(t,{G:()=>s,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function s(e,t,r){(0,n.sp)("pagehide",e,t,r)}},3241:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6154);const i="newrelic";function s(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},3304:(e,t,r)=>{"use strict";r.d(t,{A:()=>s});var n=r(7836);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function s(e){try{return JSON.stringify(e,i())??""}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}return""}}},3333:(e,t,r)=>{"use strict";r.d(t,{$v:()=>u,TZ:()=>n,Xh:()=>c,Zp:()=>i,kd:()=>d,mq:()=>a,nf:()=>o,qN:()=>s});const n=r(860).K7.genericEvents,i=["auxclick","click","copy","keydown","paste","scrollend"],s=["focus","blur"],o=4,a=1e3,c=2e3,d=["PageAction","UserAction","BrowserPerformance"],u={RESOURCES:"experimental.resources",REGISTER:"register"}},3434:(e,t,r)=>{"use strict";r.d(t,{Jt:()=>o,YM:()=>u});var n=r(7836),i=r(5607),s=r(5732);const o="nr@original:".concat(i.W),a=50;var c=Object.prototype.hasOwnProperty,d=!1;function u(e,t,r){return e||(e=n.ee),i.inPlace=function(e,t,r,n,s,o){r||(r="");const a="-"===r.charAt(0);for(let c=0;c<t.length;c++){const d=t[c],u=e[d];f(u)||(e[d]=i(u,a?d+r:r,n,d,s,o))}},i.flag=o,i;function i(t,n,i,d,h,p){return f(t)?t:(n||(n=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach(function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})}),t}catch(e){l([e],r)}for(var n in e)c.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,c,f,g;let m,v;try{c=this,o=[...arguments],v=p?(0,s.$5)(r):[void 0],f="function"==typeof i?i(o,c):i||{}}catch(t){l([t,"",[o,c,d],f],e)}u(n+"start",[o,c,d,v],f,h);const y=performance.now();let b;try{return g=t.apply(c,o),b=performance.now(),g}catch(e){throw b=performance.now(),u(n+"err",[o,c,e,v],f,h),m=e,m}finally{const e=b-y,t={start:y,end:b,duration:e,isLongTask:e>=a,methodName:d,thrownError:m};t.isLongTask&&u("long-task",[t,c,v],f,h),u(n+"end",[o,c,g,v],f,h)}}}function u(r,n,i,s){if(!d||t){var o=d;d=!0;try{e.emit(r,n,i,t,s)}catch(t){l([t,r,n,i],e)}d=o}}}function l(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function f(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>s});var n=r(9908);s.on=o;var i=s.handlers={};function s(e,t,r,s){o(s||n.d,i,e,t,r)}function o(e,t,r,i,s){s||(s="feature"),e||(e=n.d);var o=t[s]=t[s]||{};(o[r]=o[r]||[]).push([e,i])}},3738:(e,t,r)=>{"use strict";r.d(t,{He:()=>i,Kp:()=>a,Lc:()=>d,Rz:()=>u,TZ:()=>n,bD:()=>s,d3:()=>o,jx:()=>l,sl:()=>f,uP:()=>c});const n=r(860).K7.sessionTrace,i="bstResource",s="resource",o="-start",a="-end",c="fn"+o,d="fn"+a,u="pushState",l=1e3,f=3e4},3785:(e,t,r)=>{"use strict";r.d(t,{R:()=>c,b:()=>d});var n=r(9908),i=r(1863),s=r(860),o=r(3969),a=r(993);function c(e,t,r={},c=a.p_.INFO,d=!0,u,l=(0,i.t)()){(0,n.p)(o.xV,["API/logging/".concat(c.toLowerCase(),"/called")],void 0,s.K7.metrics,e),(0,n.p)(a.ET,[l,t,r,c,d,u],void 0,s.K7.logging,e)}function d(e){return"string"==typeof e&&Object.values(a.p_).some(t=>t===e.toUpperCase().trim())}},3878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function s(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>s,jT:()=>n,sp:()=>i})},3962:(e,t,r)=>{"use strict";r.d(t,{AM:()=>o,O2:()=>l,OV:()=>s,Qu:()=>f,TZ:()=>c,ih:()=>h,pP:()=>a,t1:()=>u,tC:()=>i,wD:()=>d});var n=r(860);const i=["click","keydown","submit"],s="popstate",o="api",a="initialPageLoad",c=n.K7.softNav,d=5e3,u=500,l={INITIAL_PAGE_LOAD:"",ROUTE_CHANGE:1,UNSPECIFIED:2},f={INTERACTION:1,AJAX:2,CUSTOM_END:3,CUSTOM_TRACER:4},h={IP:"in progress",PF:"pending finish",FIN:"finished",CAN:"cancelled"}},3969:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,XG:()=>a,rs:()=>i,xV:()=>o,z_:()=>s});const n=r(860).K7.metrics,i="sm",s="cm",o="storeSupportabilityMetrics",a="storeEventMetrics"},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},4261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>c,CH:()=>p,Dl:()=>R,Fw:()=>w,PA:()=>v,Pl:()=>n,Pv:()=>x,Tb:()=>f,U2:()=>o,V1:()=>A,Wb:()=>T,bt:()=>b,cD:()=>y,d3:()=>E,dT:()=>d,eY:()=>g,fF:()=>h,hG:()=>s,hw:()=>i,k6:()=>a,nb:()=>m,o5:()=>l});const n="api-",i=n+"ixn-",s="addPageAction",o="addToTrace",a="addRelease",c="finished",d="interaction",u="log",l="noticeError",f="pauseReplay",h="recordCustomEvent",p="recordReplay",g="register",m="setApplicationVersion",v="setCurrentRouteName",y="setCustomAttribute",b="setErrorHandler",w="setPageViewName",R="setUserId",E="start",T="wrapLogger",A="measure",x="consent"},5270:(e,t,r)=>{"use strict";r.d(t,{Aw:()=>o,SR:()=>s,rF:()=>a});var n=r(384),i=r(7767);function s(e){return!!(0,n.dV)().o.MO&&(0,i.V)(e)&&!0===e?.session_trace.enabled}function o(e){return!0===e?.session_replay.preload&&s(e)}function a(e,t){try{if("string"==typeof t?.type){if("password"===t.type.toLowerCase())return"*".repeat(e?.length||0);if(void 0!==t?.dataset?.nrUnmask||t?.classList?.contains("nr-unmask"))return e}}catch(e){}return"string"==typeof e?e.replace(/[\S]/g,"*"):"*".repeat(e?.length||0)}},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,Qr:()=>c,sB:()=>a});var n=r(3878),i=r(6389);function s(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(s())return e();const r=(0,i.J)(e),o=setInterval(()=>{s()&&(clearInterval(o),r())},500);(0,n.sp)("load",r,t)}function a(e){if(s())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(s())return e();(0,n.sp)("popstate",e)}},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},5732:(e,t,r)=>{"use strict";r.d(t,{$5:()=>u,B5:()=>d,Ms:()=>s,Ux:()=>a,YA:()=>c,fQ:()=>i,yx:()=>o});var n=r(7508);const i={MFE:"MFE",BA:"BA"};function s(e,t){if(!e||!t?.init.api.register.enabled)return[];const r=t.runtime.registeredEntities;return r?.filter(t=>String(t.metadata.target.id)===String(e)).map(e=>e.metadata.target)||[]}function o(e,t){if(!e||!t?.init.api.register.enabled)return[];const r=t.runtime.registeredEntities;return r?.filter(t=>t.metadata.timings?.asset?.endsWith(e)).map(e=>e.metadata.target)||[]}function a(e,t){if(!l(t))return{};const r=t.agentRef.runtime.appMetadata.agents[0].entityGuid;return e?e.attributes:{"entity.guid":r,appId:t.agentRef.info.applicationID}}function c(e,t){return d(e,t)?{"child.id":e.id,"child.type":e.type,...a(void 0,t)}:{}}function d(e,t){return!!e&&!!l(t)&&t.agentRef.init.api.register.duplicate_data_to_container}function u(e){if(!e?.init.api.register.enabled)return[void 0];const t=[];try{var r=(0,n.AZ)((0,n.QL)());let i=r.length-1;for(;r[i];)t.push(...o(r[i--],e))}catch(e){}return t.length||t.push(void 0),t}function l(e){return 2===e?.harvestEndpointVersion}},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>d,RI:()=>i,WN:()=>f,bv:()=>s,gm:()=>o,lR:()=>l,m:()=>c,mw:()=>a,sb:()=>u,zk:()=>h});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,s="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,d=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),u=d&&"undefined"==typeof SharedWorker,l=(()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Date.now()-(0,n.t)(),h=()=>{const e=o?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<o.performance.now())return e}},6344:(e,t,r)=>{"use strict";r.d(t,{BB:()=>u,Qb:()=>l,TZ:()=>i,Ug:()=>o,Vh:()=>s,_s:()=>a,bc:()=>d,yP:()=>c});var n=r(2614);const i=r(860).K7.sessionReplay,s="errorDuringReplay",o=.12,a={DomContentLoaded:0,Load:1,FullSnapshot:2,IncrementalSnapshot:3,Meta:4,Custom:5},c={[n.g.ERROR]:15e3,[n.g.FULL]:3e5,[n.g.OFF]:0},d={RESET:{message:"Session was reset",sm:"Reset"},IMPORT:{message:"Recorder failed to import",sm:"Import"},TOO_MANY:{message:"429: Too Many Requests",sm:"Too-Many"},TOO_BIG:{message:"Payload was too large",sm:"Too-Big"},CROSS_TAB:{message:"Session Entity was set to OFF on another tab",sm:"Cross-Tab"},ENTITLEMENTS:{message:"Session Replay is not allowed and will not be started",sm:"Entitlement"}},u=5e3,l={API:"api",RESUME:"resume",SWITCH_TO_FULL:"switchToFull",INITIALIZE:"initialize",PRELOAD:"preload"}},6389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},6774:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.jserrors},7295:(e,t,r)=>{"use strict";r.d(t,{Xv:()=>o,gX:()=>i,iW:()=>s});var n=[];function i(e){if(!e||s(e))return!1;if(0===n.length)return!0;if("*"===n[0].hostname)return!1;for(var t=0;t<n.length;t++){var r=n[t];if(r.hostname.test(e.hostname)&&r.pathname.test(e.pathname))return!1}return!0}function s(e){return void 0===e.hostname}function o(e){if(n=[],e&&e.length)for(var t=0;t<e.length;t++){let r=e[t];if(!r)continue;if("*"===r)return void(n=[{hostname:"*"}]);0===r.indexOf("http://")?r=r.substring(7):0===r.indexOf("https://")&&(r=r.substring(8));const i=r.indexOf("/");let s,o;i>0?(s=r.substring(0,i),o=r.substring(i)):(s=r,o="*");let[c]=s.split(":");n.push({hostname:a(c),pathname:a(o,!0)})}}function a(e,t=!1){const r=e.replace(/[.+?^${}()|[\]\\]/g,e=>"\\"+e).replace(/\*/g,".*?");return new RegExp((t?"^":"")+r+"$")}},7485:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(6154);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n.gm?.location?.protocol&&t.host===n.gm?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},7508:(e,t,r)=>{"use strict";r.d(t,{AZ:()=>g,Qr:()=>b,QL:()=>m});var n=r(6154),i=r(1863),s=r(9119),o=r(7866);class a{dom=new c;performance=new c;constructor(e){this.url=e}get script(){const e=Math.max(this.dom.start,this.performance.end);return{start:e,end:Math.max(this.dom.end,this.performance.end,e)}}}class c{start=0;end=0;value=void 0}let d;try{d=g(m())[0]}catch(e){d=g(e)[0]}const u=e=>"script"===e.initiatorType||["link","fetch"].includes(e.initiatorType)&&e.name.endsWith(".js"),l=new Map;let f=[];function h(e){return l.get(e)}function p(e){const t=h(e);if(t)return t;const r=new a(e);if(l.set(e,r),l.size>1e3){const e=l.keys().next().value;l.delete(e)}return r}if(n.gm.MutationObserver&&n.gm.document){new MutationObserver(e=>{e.forEach(e=>{e.addedNodes.forEach(e=>{if("SCRIPT"===e.nodeName&&e.src){const t=p((0,s.L)(e.src));t.dom.start=(0,i.t)(),t.dom.value=e;const r=()=>{t.dom.end=(0,i.t)()};["load","error"].forEach(t=>e.addEventListener(t,r,{once:!0}))}})})}).observe(n.gm.document,{childList:!0,subtree:!0})}if(n.gm.PerformanceObserver?.supportedEntryTypes.includes("resource")){new PerformanceObserver(e=>{e.getEntries().filter(u).forEach(e=>{const t=p((0,s.L)(e.name));t.performance.start=Math.floor(e.startTime),t.performance.end=Math.floor(e.responseEnd),t.performance.value=e;const r=[];f.forEach(({test:t,addedAt:n},s)=>{(t(e)||(0,i.t)()-n>1e4)&&r.push(s)}),f=f.filter((e,t)=>!r.includes(t))})}).observe({type:"resource",buffered:!0})}function g(e){if(!e||"string"!=typeof e)return[];const t=new Set,r=e.split("\n");for(const e of r){const r=e.match(o.cn)||e.match(o.hB)||e.match(o.fL);if(r&&r[2])t.add((0,s.L)(r[2]));else{const r=e.match(/\(([^)]+\.js):\d+:\d+\)/)||e.match(/^\s+at\s+([^\s(]+\.js):\d+:\d+/);r&&r[1]&&t.add((0,s.L)(r[1]))}}return[...t]}function m(){let e;try{const t=Error.stackTraceLimit;Error.stackTraceLimit=50,e=(new Error).stack,Error.stackTraceLimit=t}catch(t){e=(new Error).stack}return e}function v(e,t){return(0,s.L)(e.name)===t}function y(e,t){e.fetchStart=Math.floor(t.startTime),e.fetchEnd=Math.floor(t.responseEnd),e.asset=t.name,e.type=t.initiatorType}function b(){const e={registeredAt:(0,i.t)(),reportedAt:void 0,fetchStart:0,fetchEnd:0,scriptStart:0,scriptEnd:0,asset:void 0,type:"unknown"},t=m();if(!t)return e;const r=n.gm.performance?.getEntriesByType("navigation")?.[0]?.name||"";try{const o=g(t),a=(o.length>1?o.filter(e=>d!==e):o)[0];if(!a)return e;if(r.includes(a))return e.asset=(0,s.L)(r),e.type="inline",e;e.correlation=h(a);const c=e.correlation?.performance.value||performance.getEntriesByType("resource").find(e=>v(e,a));c?y(e,c):function(e){if(!e||!n.gm.document)return!1;try{const t=n.gm.document.querySelectorAll('link[rel="preload"][as="script"]');for(const r of t)if((0,s.L)(r.href)===e)return!0}catch(e){}return!1}(a)&&(e.asset=a,e.type="preload",f.push({addedAt:(0,i.t)(),test:t=>!!v(t,a)&&(y(e,t),!0)})),Object.defineProperty(e,"scriptStart",{get:()=>e.correlation?.script.start||e.fetchEnd}),Object.defineProperty(e,"scriptEnd",{get:()=>e.correlation?.script.end||e.registeredAt})}catch(e){}return e}},7699:(e,t,r)=>{"use strict";r.d(t,{It:()=>s,KC:()=>a,No:()=>i,qh:()=>o});var n=r(860);const i=16e3,s=1e6,o="SESSION_ERROR",a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0}},7767:(e,t,r)=>{"use strict";r.d(t,{V:()=>i});var n=r(6154);const i=e=>n.RI&&!0===e?.privacy.cookies_enabled},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>a,ee:()=>c});var n=r(384),i=r(8990),s=r(2646),o=r(5607);const a="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},u={},l=!1;try{l=16===r.length&&d.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,s){!1!==s&&(s=!0);if(c.aborted&&!i)return;t&&s&&t.emit(e,r,n);var a=h(n);g(e).forEach(e=>{e.apply(a,r)});var d=v()[o[e]];d&&d.push([f,e,r,a]);return a},get:m,listeners:g,context:h,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function h(e){return e&&e instanceof s.y?e:e?(0,i.I)(e,a,()=>new s.y(a)):new s.y(a)}function p(e,t){n[e]=g(e).concat(t)}function g(e){return n[e]||[]}function m(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=c)},7866:(e,t,r)=>{"use strict";r.d(t,{Nc:()=>s,cn:()=>a,fL:()=>i,h3:()=>n,hB:()=>o});const n=/function (.+?)\s*\(/,i=/^\s*at .+ \(eval at \S+ \((?:(?:file|http|https):[^)]+)?\)(?:, [^:]*:\d+:\d+)?\)$/i,s=/^\s*at Function code \(Function code:\d+:\d+\)\s*/i,o=/^\s*at (?:((?:\[object object\])?(?:[^(]*\([^)]*\))*[^()]*(?: \[as \S+\])?) )?\(?((?:file|http|https|chrome-extension):.*?)?:(\d+)(?::(\d+))?\)?\s*$/i,a=/^\s*(?:([^@]*)(?:\(.*?\))?@)?((?:file|http|https|chrome|safari-extension).*?):(\d+)(?::(\d+))?\s*$/i},8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),s=0===Object.keys(r).length?e:r;for(let o in s)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):e[o]instanceof Map||e[o]instanceof Set||e[o]instanceof Date||e[o]instanceof RegExp?r[o]=e[o]:"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},8139:(e,t,r)=>{"use strict";r.d(t,{u:()=>f});var n=r(7836),i=r(3434),s=r(8990),o=r(6154);const a={},c=o.gm.XMLHttpRequest,d="addEventListener",u="removeEventListener",l="nr@wrapped:".concat(n.P);function f(e){var t=function(e){return(e||n.ee).get("events")}(e);if(a[t.debugId]++)return t;a[t.debugId]=1;var r=(0,i.YM)(t,!0);function f(e){r.inPlace(e,[d,u],"-",p)}function p(e,t){return e[1]}return"getPrototypeOf"in Object&&(o.RI&&h(document,f),c&&h(c.prototype,f),h(o.gm,f)),t.on(d+"-start",function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)&&"newrelic"!==e[0]){var i=(0,s.I)(n,l,function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=e[1]=i}}),t.on(u+"-start",function(e){e[1]=this.wrapped||e[1]}),t}function h(e,t,...r){let n=e;for(;"object"==typeof n&&!Object.prototype.hasOwnProperty.call(n,d);)n=Object.getPrototypeOf(n);n&&t(n,...r)}},8362:(e,t,r)=>{"use strict";r.d(t,{d:()=>s});var n=r(9566),i=r(1741);class s extends i.W{agentIdentifier=(0,n.LA)(16)}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9119:(e,t,r)=>{"use strict";r.d(t,{L:()=>s});var n=/([^?#]*)[^#]*(#[^?]*|$).*/,i=/([^?#]*)().*/;function s(e,t){return e?e.replace(t?n:i,"$1$2"):e}},9300:(e,t,r)=>{"use strict";r.d(t,{T:()=>n,f:()=>i});const n=r(860).K7.ajax,i="ajaxRequest.id"},9324:(e,t,r)=>{"use strict";r.d(t,{AJ:()=>o,F3:()=>i,Xs:()=>s,Yq:()=>a,xv:()=>n});const n="1.316.0",i="PROD",s="CDN",o="@newrelic/rrweb",a="1.1.0"},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>a,ZF:()=>c,bz:()=>o,el:()=>d});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function s(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map(e=>"x"===e?s(t,r++).toString(16):"y"===e?(3&s()|8).toString(16):e).join("")}function a(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var a=0;a<e;a++)o.push(s(r,i++).toString(16));return o.join("")}function c(){return a(16)}function d(){return a(32)}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,s){s?(s.buffer([e],i),s.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var s=n[e]={exports:{}};return r[e](s,s.exports,i),s.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce((t,r)=>(i.f[r](e,t),t),[])),i.u=e=>({212:"nr-spa-compressor",249:"nr-spa-recorder",478:"nr-spa"}[e]+"-1.316.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.316.0.PROD:",i.l=(r,n,s,o)=>{if(e[r])e[r].push(n);else{var a,c;if(void 0!==s)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+s){a=l;break}}if(!a){c=!0;var f={478:"sha512-/91tZUpAINW5VzLS+EdJpEe0gul6FJd2zTpGwLIhi/mqcTiQPUlhoJmX5zb4EPTwdGqun46DoGQPtDShDBw4bA==",249:"sha512-XqLQgD24Jrw2HFtuRDeuxMcY5WnEXG04tpC98UJOJlIfGqQst/lKUE+G++zwulwEzcM00bl5V0e1kKGq2Nxc1g==",212:"sha512-rOHSN/tvMjFe33yfRKMs44m3dZKgs9foEl0T2tdErrZKsAF8Oe5+OLJKgySrw3WwY4MgvuS4yWEr88MMv5LZaw=="};(a=document.createElement("script")).charset="utf-8",i.nc&&a.setAttribute("nonce",i.nc),a.setAttribute("data-webpack",t+s),a.src=r,0!==a.src.indexOf(window.location.origin+"/")&&(a.crossOrigin="anonymous"),f[o]&&(a.integrity=f[o])}e[r]=[n];var h=(t,n)=>{a.onerror=a.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],a.parentNode&&a.parentNode.removeChild(a),i&&i.forEach(e=>e(n)),t)return t(n)},p=setTimeout(h.bind(null,void 0,{type:"timeout",target:a}),12e4);a.onerror=h.bind(null,a.onerror),a.onload=h.bind(null,a.onload),c&&document.head.appendChild(a)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={38:0,788:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var s=new Promise((r,i)=>n=e[t]=[r,i]);r.push(n[2]=s);var o=i.p+i.u(t),a=new Error;i.l(o,r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var s=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed: ("+s+": "+o+")",a.name="ChunkLoadError",a.type=s,a.request=o,n[1](a)}},"chunk-"+t,t)}};var t=(t,r)=>{var n,s,[o,a,c]=r,d=0;if(o.some(t=>0!==e[t])){for(n in a)i.o(a,n)&&(i.m[n]=a[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)s=o[d],i.o(e,s)&&e[s]&&e[s][0](),e[s]=0},r=self["webpackChunk:NRBA-1.316.0.PROD"]=self["webpackChunk:NRBA-1.316.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(8362),t=i(860);const r=Object.values(t.K7);var n=i(384),s=i(1741);var o=i(2555),a=i(3333);const c=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=i(2614),u=i(944),l=i(8122);const f="[data-nr-mask]",h=e=>(0,l.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{register:{get enabled(){return e.feature_flags.includes(a.$v.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(a.$v.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){c(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,u.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){c(t)?e.block_selector+=",".concat(t):""!==t&&(0,u.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,u.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var p=i(6154),g=i(9324);let m=0;const v={buildEnv:g.F3,distMethod:g.Xs,version:g.xv,originTime:p.WN},y={consented:!1},b={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||y.consented},set consented(e){y.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++m}};var w=i(7836),R=i(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};function T(e,t={},r,a){let{init:c,info:d,loader_config:u,runtime:f={},exposed:g=!0}=t;if(!d){const e=(0,n.pV)();c=e.init,d=e.info,u=e.loader_config}var m;e.init=h(c||{}),e.loader_config=(m=u||{},(0,l.a)(m,E)),d.jsAttributes??={},p.bv&&(d.jsAttributes.isWorker=!0),e.info=(0,o.D)(d);const y=e.init;e.runtime??=(e=>{const t=(0,l.a)(e,b),r=Object.keys(v).reduce((e,t)=>(e[t]={value:v[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(f),y.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",i.p=t?e:"https://"+e})(y.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(s.W.prototype).forEach(r=>{const n=s.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=r,e.ee=w.ee.get(e.agentIdentifier),e.exposed=g,(0,R.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.runtime.configured=!0)}var A=i(9908),x=i(1863),S=i(4261),_=i(1738);var O=i(1687),P=i(4234),k=i(5289),N=i(5270),j=i(7767),C=i(6389),D=i(7699);const L=new WeakSet;class I extends P.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,C.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;const n=async()=>{if(await this.deferred,this.#t(e),!(0,o.f)(e.info))return(0,u.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);let n;try{if((0,j.V)(e.init)){const{setupAgentSession:t}=await i.e(478).then(i.bind(i,8766));n=t(e)}}catch(e){(0,u.R)(20,e),this.ee.emit("internal-error",[e]),(0,A.p)(D.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#r(this.featureName,n,e.init))return(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:i}=await t();this.featAggregate=new i(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,u.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1),this.ee&&this.ee.abort()}};p.RI?(0,k.GG)(()=>n(),!0):n()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return(0,N.SR)(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!L.has(e)&&(L.add(e),!(0,o.f)(e.info))){const t=(0,n.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var M=i(6630);class B extends I{static featureName=M.T;constructor(e){var t;super(e,M.T),this.setupInspectionEvents(),t=e,(0,_.Y)(S.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,A.p)(S.Pl+S.Fw,[(0,x.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>i.e(478).then(i.bind(i,5839)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,R.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,k.sB)(t=>{e(t,"DOMContentLoaded")}),(0,k.GG)(t=>{e(t,"load")}),(0,k.Qr)(t=>{e(t,"navigate")}),this.ee.on(d.tS.UPDATE,(e,t)=>{(0,R.W)({type:"lifecycle",name:"session",data:t})})}}class H extends e.d{constructor(e){var t;(super(),p.gm)?(this.features={},(0,n.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(B),T(this,e,e.loaderType||"agent"),t=this,(0,_.Y)(S.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,_.U)(t,e,r,S.cD,n);(0,u.R)(40,typeof r)}else(0,u.R)(39,typeof e)},t),function(e){(0,_.Y)(S.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,u.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,A.p)(S.Pl+"setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,_.U)(e,"enduser.id",t,S.Dl,!0)},e)}(this),function(e){(0,_.Y)(S.nb,function(t){if("string"==typeof t||null===t)return(0,_.U)(e,"application.version",t,S.nb,!1);(0,u.R)(42,typeof t)},e)}(this),function(e){(0,_.Y)(S.d3,function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,_.Y)(S.Pv,function(t=!0){if("boolean"==typeof t){if((0,A.p)(S.Pl+S.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum()})}}else(0,u.R)(65,typeof t)},e)}(this),this.run()):(0,u.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return r.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),n=[...this.desiredFeatures];n.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),n.forEach(r=>{if(!e[r.featureName]&&r.featureName!==t.K7.pageViewEvent)return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,u.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,u.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,n.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var K=i(2843),W=i(782);class F extends I{static featureName=W.T;constructor(e){super(e,W.T),p.RI&&((0,K.u)(()=>(0,A.p)("docHidden",[(0,x.t)()],void 0,W.T,this.ee),!0),(0,K.G)(()=>(0,A.p)("winPagehide",[(0,x.t)()],void 0,W.T,this.ee)),this.importAggregator(e,()=>i.e(478).then(i.bind(i,9917))))}}var U=i(3969);class V extends I{static featureName=U.TZ;constructor(e){super(e,U.TZ),this.importAggregator(e,()=>i.e(478).then(i.bind(i,6555)))}}var z=i(6774),G=i(3878),Y=i(3304);class Z{constructor(e,t,r,n,i){this.name="UncaughtError",this.message="string"==typeof e?e:(0,Y.A)(e),this.sourceURL=t,this.line=r,this.column=n,this.__newrelic=i}}function q(e){return J(e)?e:new Z(void 0!==e?.message?e.message:e,e?.filename||e?.sourceURL,e?.lineno||e?.line,e?.colno||e?.col,e?.__newrelic,e?.cause)}function X(e){const t="Unhandled Promise Rejection: ";if(!e?.reason)return;if(J(e.reason)){try{e.reason.message.startsWith(t)||(e.reason.message=t+e.reason.message)}catch(e){}return q(e.reason)}const r=q(e.reason);return(r.message||"").startsWith(t)||(r.message=t+r.message),r}function Q(e){if(e.error instanceof SyntaxError&&!/:\d+$/.test(e.error.stack?.trim())){const t=new Z(e.message,e.filename,e.lineno,e.colno,e.error.__newrelic,e.cause);return t.name=SyntaxError.name,t}return J(e.error)?e.error:q(e)}function J(e){return e instanceof Error&&!!e.stack}function ee(e,r,n,i,s=(0,x.t)()){"string"==typeof e&&(e=new Error(e)),(0,A.p)("err",[e,s,!1,r,n.runtime.isRecording,void 0,i],void 0,t.K7.jserrors,n.ee),(0,A.p)("uaErr",[],void 0,t.K7.genericEvents,n.ee)}var te=i(5732),re=i(993),ne=i(3785);function ie(e,{customAttributes:t={},level:r=re.p_.INFO}={},n,i,s=(0,x.t)()){(0,ne.R)(n.ee,e,t,r,!1,i,s)}function se(e,r,n,i,s=(0,x.t)()){(0,A.p)(S.Pl+S.hG,[s,e,r,i],void 0,t.K7.genericEvents,n.ee)}function oe(e,r,n,i,s=(0,x.t)()){const{start:o,end:a,customAttributes:c}=r||{},d={customAttributes:c||{}};if("object"!=typeof d.customAttributes||"string"!=typeof e||0===e.length)return void(0,u.R)(57);const l=(e,t)=>null==e?t:"number"==typeof e?e:e instanceof PerformanceMark?e.startTime:Number.NaN;if(d.start=l(o,0),d.end=l(a,s),Number.isNaN(d.start)||Number.isNaN(d.end))(0,u.R)(57);else{if(d.duration=d.end-d.start,!(d.duration<0))return(0,A.p)(S.Pl+S.V1,[d,e,i],void 0,t.K7.genericEvents,n.ee),d;(0,u.R)(58)}}function ae(e,r={},n,i,s=(0,x.t)()){(0,A.p)(S.Pl+S.fF,[s,e,r,i],void 0,t.K7.genericEvents,n.ee)}var ce=i(7508),de=i(9566);const ue=["name","id","type"],le=new Map([[se,"addPageAction"],[ie,"log"],[oe,"measure"],[ee,"noticeError"],[ae,"recordCustomEvent"]]),fe={experimental:(0,C.J)(()=>(0,u.R)(54,"newrelic.register")),disabled:(0,C.J)(()=>(0,u.R)(55)),invalidTarget:(0,C.J)(e=>(0,u.R)(48,e)),deregistered:(0,C.J)(()=>(0,u.R)(68))};function he(e){(0,_.Y)(S.eY,function(t){return pe(e,t)},e)}function pe(e,r){fe.experimental(),r||={},r.instance=(0,de.LA)(8),r.type=te.fQ.MFE,r.licenseKey||=e.info.licenseKey,r.blocked=!1,("object"!=typeof r.tags||null===r.tags||Array.isArray(r.tags))&&(r.tags={}),r.parent??={get id(){return e.runtime.appMetadata.agents[0].entityGuid},type:te.fQ.BA};const n=(0,ce.Qr)(),i={};Object.prototype.hasOwnProperty.call(r,"attributes")||Object.defineProperty(r,"attributes",{get:()=>({...i,"source.id":r.id,"source.name":r.name,"source.type":r.type,"parent.type":r.parent?.type||te.fQ.BA,"parent.id":r.parent?.id})}),Object.entries(r.tags).forEach(([e,t])=>{ue.includes(e)||(i["source.".concat(e)]=t)});let s=()=>{};const o=e.runtime.registeredEntities,a=e=>{r.blocked=!0,s=e};function c(e){return"string"==typeof e&&!!e.trim()&&e.trim().length<501}e.init.api.register.enabled||a(fe.disabled),c(r.id)&&c(r.name)||a(()=>fe.invalidTarget(r));const d={addPageAction:(t,n={})=>p(se,[t,{...i,...n},e],r),deregister:()=>{f(),a(fe.deregistered)},log:(t,n={})=>p(ie,[t,{...n,customAttributes:{...i,...n.customAttributes||{}}},e],r),measure:(t,n={})=>p(oe,[t,{...n,customAttributes:{...i,...n.customAttributes||{}}},e],r),noticeError:(t,n={})=>p(ee,[t,{...i,...n},e],r),recordCustomEvent:(t,n={})=>p(ae,[t,{...i,...n},e],r),setApplicationVersion:e=>h("application.version",e),setCustomAttribute:(e,t)=>h(e,t),setUserId:e=>h("enduser.id",e),metadata:{get customAttributes(){return i},target:r,timings:n}},l=()=>(r.blocked&&s(),r.blocked);function f(){if(n.reportedAt)return;n.reportedAt=(0,x.t)();const e=n.fetchEnd-n.fetchStart,t=n.scriptEnd-n.scriptStart;d.recordCustomEvent("MicroFrontEndTiming",{assetUrl:n.asset,assetType:n.type,timeAlive:n.reportedAt-n.registeredAt,timeToBeRequested:n.fetchStart,timeToExecute:t,timeToFetch:e,timeToLoad:e+t,timeToRegister:n.registeredAt})}l()||(o.push(d),(0,K.G)(f));const h=(e,t)=>{l()||(i[e]=t)},p=(r,n,i)=>{if(l()&&r!==pe)return;const s=(0,x.t)(),o=le.get(r)||"unknown";(0,A.p)(U.xV,["API/register/".concat(o,"/called")],void 0,t.K7.metrics,e.ee);try{return r(...n,i,s)}catch(e){(0,u.R)(50,e)}};return d}class ge extends I{static featureName=z.T;constructor(e){var t;super(e,z.T),t=e,(0,_.Y)(S.o5,(e,r)=>ee(e,r,t),t),function(e){(0,_.Y)(S.bt,function(t){e.runtime.onerror=t},e)}(e),function(e){let t=0;(0,_.Y)(S.k6,function(e,r){++t>10||(this.runtime.releaseIds[e.slice(-200)]=(""+r).slice(-200))},e)}(e),he(e);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("internal-error",(t,r)=>{this.abortHandler&&(0,A.p)("ierr",[q(t),(0,x.t)(),!0,{},e.runtime.isRecording,r],void 0,this.featureName,this.ee)}),p.gm.addEventListener("unhandledrejection",t=>{this.abortHandler&&(0,A.p)("err",[X(t),(0,x.t)(),!1,{unhandledPromiseRejection:1},e.runtime.isRecording],void 0,this.featureName,this.ee)},(0,G.jT)(!1,this.removeOnAbort?.signal)),p.gm.addEventListener("error",t=>{this.abortHandler&&(0,A.p)("err",[Q(t),(0,x.t)(),!1,{},e.runtime.isRecording],void 0,this.featureName,this.ee)},(0,G.jT)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#n,this.importAggregator(e,()=>i.e(478).then(i.bind(i,9377)))}#n(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}var me=i(8990);let ve=1;function ye(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===p.gm?0:(0,me.I)(e,"nr@id",function(){return ve++})}function be(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,Y.A)(e).length}catch(e){return}}}var we=i(8139),Re=i(3434);const Ee={},Te=["open","send"];function Ae(e,t){var r=e||w.ee;const n=function(e){return(e||w.ee).get("xhr")}(r);if(void 0===p.gm.XMLHttpRequest)return n;if(Ee[n.debugId]++)return n;Ee[n.debugId]=1,(0,we.u)(r);var i=(0,Re.YM)(n),s=p.gm.XMLHttpRequest,o=p.gm.MutationObserver,a=p.gm.Promise,c=p.gm.setInterval,d="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],f=[],h=p.gm.XMLHttpRequest=function(e){const r=new s(e),o=n.context(r);o.targets=(0,te.$5)(t);try{n.emit("new-xhr",[r],o),r.addEventListener(d,(a=o,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",R)}),(0,G.jT)(!1))}catch(e){(0,u.R)(15,e);try{n.emit("internal-error",[e])}catch(e){}}var a;return r};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",R)}if(function(e,t){for(var r in e)t[r]=e[r]}(s,h),h.prototype=s.prototype,i.inPlace(h.prototype,Te,"-xhr-",R),n.on("send-xhr-start",function(e,t){g(e,t),function(e){f.push(e),o&&(m?m.then(b):c?c(b):(v=-v,y.data=v))}(t)}),n.on("open-xhr-start",g),o){var m=a&&a.resolve();if(!c&&!a){var v=1,y=document.createTextNode(v);new o(b).observe(y,{characterData:!0})}}else r.on("fn-end",function(e){e[0]&&e[0].type===d||b()});function b(){for(var e=0;e<f.length;e++)g(0,f[e]);f.length&&(f=[])}function R(e,t){return t}return n}var xe="fetch-",Se=xe+"body-",_e=["arrayBuffer","blob","json","text","formData"],Oe=p.gm.Request,Pe=p.gm.Response,ke="prototype";const Ne={};function je(e,t){const r=function(e){return(e||w.ee).get("fetch")}(e);if(!(Oe&&Pe&&p.gm.fetch))return r;if(Ne[r.debugId]++)return r;function n(e,n,i){var s=e[n];"function"==typeof s&&(e[n]=function(){var e=[...arguments];const n={},o=(0,te.$5)(t);var a;r.emit(i+"before-start",[e],n),n[w.P]&&n[w.P].dt&&(a=n[w.P].dt);var c=s.apply(this,e);return r.emit(i+"start",[e,a],c),c.then(function(e){return r.emit(i+"end",[null,e,o],c),e},function(e){throw r.emit(i+"end",[e,void 0,o],c),e})})}return Ne[r.debugId]=1,_e.forEach(e=>{n(Oe[ke],e,Se),n(Pe[ke],e,Se)}),n(p.gm,"fetch",xe),r.on(xe+"end",function(e,t,n){var i=this;if(i.targets=n||[void 0],t){var s=t.headers.get("content-length");null!==s&&(i.rxSize=s),r.emit(xe+"done",[null,t],i)}else r.emit(xe+"done",[e],i)}),r}var Ce=i(7485);class De{constructor(e){this.agentRef=e}generateTracePayload(e){const t=this.agentRef.loader_config;if(!this.shouldGenerateTrace(e)||!t)return null;var r=(t.accountID||"").toString()||null,n=(t.agentID||"").toString()||null,i=(t.trustKey||"").toString()||null;if(!r||!n)return null;var s=(0,de.ZF)(),o=(0,de.el)(),a=Date.now(),c={spanId:s,traceId:o,timestamp:a};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(c.traceContextParentHeader=this.generateTraceContextParentHeader(s,o),c.traceContextStateHeader=this.generateTraceContextStateHeader(s,a,r,n,i)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(c.newrelicHeader=this.generateTraceHeader(s,o,a,r,n,i)),c}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,s){if(!("function"==typeof p.gm?.btoa))return null;var o={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return s&&n!==s&&(o.d.tk=s),btoa((0,Y.A)(o))}shouldGenerateTrace(e){return this.agentRef.init?.distributed_tracing?.enabled&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1;const r=this.agentRef.init?.distributed_tracing;if(e.sameOrigin)t=!0;else if(r?.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,Ce.D)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t}excludeNewrelicHeader(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=this.agentRef.init?.distributed_tracing;return!!e&&!!e.cors_use_tracecontext_headers}}var Le=i(9300),Ie=i(7295);function Me(e){return"string"==typeof e?e:e instanceof(0,n.dV)().o.REQ?e.url:p.gm?.URL&&e instanceof URL?e.href:void 0}var Be=["load","error","abort","timeout"],He=Be.length,Ke=(0,n.dV)().o.REQ,We=(0,n.dV)().o.XHR;const Fe="X-NewRelic-App-Data";class Ue extends I{static featureName=Le.T;constructor(e){super(e,Le.T),this.dt=new De(e),this.handler=(e,t,r,n)=>(0,A.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};p.gm?.performance?.getEntriesByType("resource").forEach(r=>{if(r.initiatorType in e&&0!==r.responseStatus){const n={status:r.responseStatus},i={rxSize:r.transferSize,duration:Math.floor(r.duration),cbTime:0};Ve(n,r.name),this.handler("xhr",[n,i,r.startTime,r.responseEnd,e[r.initiatorType]],void 0,t.K7.ajax)}})}catch(e){}je(this.ee,e),Ae(this.ee,e),function(e,r,n,i){function s(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=R,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},t.latestLongtaskEnd=0,e.addEventListener("load",function(r){T(t,e)},(0,G.jT)(!1)),p.lR||e.addEventListener("progress",function(e){t.lastSize=e.loaded},(0,G.jT)(!1))}function o(e){this.params={method:e[0]},Ve(this,e[1]),this.metrics={}}function a(t,r){e.loader_config.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",e.loader_config.xpid);var n=i.generateTracePayload(this.parsedOrigin);if(n){var s=!1;n.newrelicHeader&&(r.setRequestHeader("newrelic",n.newrelicHeader),s=!0),n.traceContextParentHeader&&(r.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&r.setRequestHeader("tracestate",n.traceContextStateHeader),s=!0),s&&(this.dt=n)}}function c(e,t){var n=this.metrics,i=e[0],s=this;if(n&&i){var o=be(i);o&&(n.txSize=o)}this.startTime=(0,x.t)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||s.loadCaptureCalled||(s.params.aborted=!0),("load"!==e.type||s.called===s.totalCbs&&(s.onloadCalled||"function"!=typeof t.onload)&&"function"==typeof s.end)&&s.end(t)}catch(e){try{r.emit("internal-error",[e])}catch(e){}}};for(var a=0;a<He;a++)t.addEventListener(Be[a],this.listener,(0,G.jT)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function u(e,t){var r=""+ye(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function l(e,t){var r=""+ye(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function f(){this.endTime=(0,x.t)()}function h(e,t){t instanceof We&&"load"===e[0]&&r.emit("xhr-load-added",[e[1],e[2]],t)}function g(e,t){t instanceof We&&"load"===e[0]&&r.emit("xhr-load-removed",[e[1],e[2]],t)}function m(e,t,r){t instanceof We&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,x.t)()))}function v(e,t){this.xhrCbStart&&r.emit("xhr-cb-time",[(0,x.t)()-this.xhrCbStart,this.onload,t],t)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&p.RI&&(t=""+p.gm.location.href):e[0]&&e[0].url?t=e[0].url:p.gm?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,Ce.D)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=i.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)a(e[0].headers,n)&&(this.dt=n);else{var s={};for(var o in r)s[o]=r[o];s.headers=new Headers(r.headers||{}),a(s.headers,n)&&(this.dt=n),e.length>1?e[1]=s:e.push(s)}}function a(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function b(e,t){this.params={},this.metrics={},this.startTime=(0,x.t)(),this.dt=t;let[r,n={}]=e;Ve(this,Me(r));const i=(""+(r&&r instanceof Ke&&r.method||n.method||"GET")).toUpperCase();this.params.method=i,this.body=n.body,this.txSize=be(n.body)||0}function w(e,t){if(this.endTime=(0,x.t)(),this.params||(this.params={}),(0,Ie.iW)(this.params))return;let r;this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(r=+this.rxSize);const n={txSize:this.txSize,rxSize:r,duration:(0,x.t)()-this.startTime},i=[this.params,n,this.startTime,this.endTime,"fetch"];this.targets.forEach(e=>E(i,this,e))}function R(e){const t=this.params,r=this.metrics;if(this.ended)return;this.ended=!0;for(let t=0;t<He;t++)e.removeEventListener(Be[t],this.listener,!1);if(t.aborted)return;if((0,Ie.iW)(t))return;r.duration=(0,x.t)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):T(this,e),r.cbTime=this.cbTime;const n=[t,r,this.startTime,this.endTime,"xhr"];this.targets.forEach(e=>E(n,this,e))}function E(e,r,i){n("xhr",[...e,i],r,t.K7.ajax)}function T(e,n){e.params.status=n.status;var i=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?be(e.response):"text"===r||""===r||void 0===r?be(e.responseText):void 0}(n,e.lastSize);if(i&&(e.metrics.rxSize=i),e.sameOrigin&&n.getAllResponseHeaders().indexOf(Fe)>=0){var s=n.getResponseHeader(Fe);s&&((0,A.p)(U.rs,["Ajax/CrossApplicationTracing/Header/Seen"],void 0,t.K7.metrics,r),e.params.cat=s.split(", ").pop())}e.loadCaptureCalled=!0}r.on("new-xhr",s),r.on("open-xhr-start",o),r.on("open-xhr-end",a),r.on("send-xhr-start",c),r.on("xhr-cb-time",d),r.on("xhr-load-added",u),r.on("xhr-load-removed",l),r.on("xhr-resolved",f),r.on("addEventListener-end",h),r.on("removeEventListener-end",g),r.on("fn-end",v),r.on("fetch-before-start",y),r.on("fetch-start",b),r.on("fn-start",m),r.on("fetch-done",w)}(e,this.ee,this.handler,this.dt),this.importAggregator(e,()=>i.e(478).then(i.bind(i,3845)))}}function Ve(e,t){var r=(0,Ce.D)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}const ze={},Ge=["pushState","replaceState"];function Ye(e){const t=function(e){return(e||w.ee).get("history")}(e);return!p.RI||ze[t.debugId]++||(ze[t.debugId]=1,(0,Re.YM)(t).inPlace(window.history,Ge,"-")),t}var Ze=i(3738);function qe(e){(0,_.Y)(S.BL,function(r=Date.now()){const n=r-p.WN;n<0&&(0,u.R)(62,r),(0,A.p)(U.XG,[S.BL,{time:n}],void 0,t.K7.metrics,e.ee),e.addToTrace({name:S.BL,start:r,origin:"nr"}),(0,A.p)(S.Pl+S.hG,[n,S.BL],void 0,t.K7.genericEvents,e.ee)},e)}const{He:Xe,bD:$e,d3:Qe,Kp:Je,TZ:et,Lc:tt,uP:rt,Rz:nt}=Ze;class it extends I{static featureName=et;constructor(e){var r;super(e,et),r=e,(0,_.Y)(S.U2,function(e){if(!(e&&"object"==typeof e&&e.name&&e.start))return;const n={n:e.name,s:e.start-p.WN,e:(e.end||e.start)-p.WN,o:e.origin||"",t:"api"};n.s<0||n.e<0||n.e<n.s?(0,u.R)(61,{start:n.s,end:n.e}):(0,A.p)("bstApi",[n],void 0,t.K7.sessionTrace,r.ee)},r),qe(e);if(!(0,j.V)(e.init))return void this.deregisterDrain();const n=this.ee;let s;Ye(n),this.eventsEE=(0,we.u)(n),this.eventsEE.on(rt,function(e,t){this.bstStart=(0,x.t)()}),this.eventsEE.on(tt,function(e,r){(0,A.p)("bst",[e[0],r,this.bstStart,(0,x.t)()],void 0,t.K7.sessionTrace,n)}),n.on(nt+Qe,function(e){this.time=(0,x.t)(),this.startPath=location.pathname+location.hash}),n.on(nt+Je,function(e){(0,A.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,t.K7.sessionTrace,n)});try{s=new PerformanceObserver(e=>{const r=e.getEntries();(0,A.p)(Xe,[r],void 0,t.K7.sessionTrace,n)}),s.observe({type:$e,buffered:!0})}catch(e){}this.importAggregator(e,()=>i.e(478).then(i.bind(i,6974)),{resourceObserver:s})}}var st=i(733),ot=i(6344);class at extends I{static featureName=ot.TZ;#i;recorder;constructor(e){var r;let n;super(e,ot.TZ),r=e,(0,_.Y)(S.CH,function(){(0,A.p)(S.CH,[],void 0,t.K7.sessionReplay,r.ee)},r),function(e){(0,_.Y)(S.Tb,function(){(0,A.p)(S.Tb,[],void 0,t.K7.sessionReplay,e.ee)},e)}(e);const s="".concat(d.Wt).concat((0,st.Y)(e.info.licenseKey,e.info.applicationID));try{n=JSON.parse(localStorage.getItem(s))}catch(e){}(0,N.SR)(e.init)&&this.ee.on(S.CH,()=>this.#s()),this.#o(n)&&this.importRecorder().then(e=>{e.startRecording(ot.Qb.PRELOAD,n?.sessionReplayMode)}),this.importAggregator(this.agentRef,()=>i.e(478).then(i.bind(i,6167)),this),this.ee.on("err",e=>{this.blocked||this.agentRef.runtime.isRecording&&(this.errorNoticed=!0,(0,A.p)(ot.Vh,[e],void 0,this.featureName,this.ee))})}#o(e){return e&&(e.sessionReplayMode===d.g.FULL||e.sessionReplayMode===d.g.ERROR)||(0,N.Aw)(this.agentRef.init)}importRecorder(){return this.recorder?Promise.resolve(this.recorder):(this.#i??=Promise.all([i.e(478),i.e(249)]).then(i.bind(i,4866)).then(({Recorder:e})=>(this.recorder=new e(this),this.recorder)).catch(e=>{throw this.ee.emit("internal-error",[e]),this.blocked=!0,e}),this.#i)}#s(){this.blocked||(this.featAggregate?this.featAggregate.mode!==d.g.FULL&&this.featAggregate.initializeRecording(d.g.FULL,!0,ot.Qb.API):this.importRecorder().then(()=>{this.recorder.startRecording(ot.Qb.API,d.g.FULL)}))}}var ct=i(3962);class dt extends I{static featureName=ct.TZ;constructor(e){if(super(e,ct.TZ),function(e){const r=e.ee.get("tracer");function n(){}(0,_.Y)(S.dT,function(e){return(new n).get("object"==typeof e?e:{})},e);const i=n.prototype={createTracer:function(n,i){var s={},o=this,a="function"==typeof i;return(0,A.p)(U.xV,["API/createTracer/called"],void 0,t.K7.metrics,e.ee),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.t)(),o,a],s),a)try{return i.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw r.emit("fn-err",[arguments,this,t],s),t}finally{r.emit("fn-end",[(0,x.t)()],s)}}}};["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach(r=>{_.Y.apply(this,[r,function(){return(0,A.p)(S.hw+r,[performance.now(),...arguments],this,t.K7.softNav,e.ee),this},e,i])}),(0,_.Y)(S.PA,function(){(0,A.p)(S.hw+"routeName",[performance.now(),...arguments],void 0,t.K7.softNav,e.ee)},e)}(e),!p.RI||!(0,n.dV)().o.MO)return;const r=Ye(this.ee);try{this.removeOnAbort=new AbortController}catch(e){}ct.tC.forEach(e=>{(0,G.sp)(e,e=>{c(e)},!0,this.removeOnAbort?.signal)});const s=()=>(0,A.p)("newURL",[(0,x.t)(),""+window.location],void 0,this.featureName,this.ee);r.on("pushState-end",s),r.on("replaceState-end",s),(0,G.sp)(ct.OV,e=>{c(e),(0,A.p)("newURL",[e.timeStamp,""+window.location],void 0,this.featureName,this.ee)},!0,this.removeOnAbort?.signal);let o=!1;const a=new((0,n.dV)().o.MO)((e,t)=>{o||(o=!0,requestAnimationFrame(()=>{(0,A.p)("newDom",[(0,x.t)()],void 0,this.featureName,this.ee),o=!1}))}),c=(0,C.s)(e=>{"loading"!==document.readyState&&((0,A.p)("newUIEvent",[e],void 0,this.featureName,this.ee),a.observe(document.body,{attributes:!0,childList:!0,subtree:!0,characterData:!0}))},100,{leading:!0});this.abortHandler=function(){this.removeOnAbort?.abort(),a.disconnect(),this.abortHandler=void 0},this.importAggregator(e,()=>i.e(478).then(i.bind(i,4393)),{domObserver:a})}}var ut=i(9119);const lt={},ft=new Set;function ht(e){return"string"==typeof e?{type:"string",size:(new TextEncoder).encode(e).length}:e instanceof ArrayBuffer?{type:"ArrayBuffer",size:e.byteLength}:e instanceof Blob?{type:"Blob",size:e.size}:e instanceof DataView?{type:"DataView",size:e.byteLength}:ArrayBuffer.isView(e)?{type:"TypedArray",size:e.byteLength}:{type:"unknown",size:0}}class pt{constructor(e,t){this.timestamp=(0,x.t)(),this.currentUrl=(0,ut.L)(window.location.href),this.socketId=(0,de.LA)(8),this.requestedUrl=(0,ut.L)(e),this.requestedProtocols=Array.isArray(t)?t.join(","):t||"",this.openedAt=void 0,this.protocol=void 0,this.extensions=void 0,this.binaryType=void 0,this.messageOrigin=void 0,this.messageCount=0,this.messageBytes=0,this.messageBytesMin=0,this.messageBytesMax=0,this.messageTypes=void 0,this.sendCount=0,this.sendBytes=0,this.sendBytesMin=0,this.sendBytesMax=0,this.sendTypes=void 0,this.closedAt=void 0,this.closeCode=void 0,this.closeReason="unknown",this.closeWasClean=void 0,this.connectedDuration=0,this.hasErrors=void 0}}class gt extends I{static featureName=a.TZ;constructor(e){super(e,a.TZ);const r=e.init.feature_flags.includes("websockets"),s=!e.init.feature_flags.includes("no_spv"),o=[e.init.page_action.enabled,e.init.performance.capture_marks,e.init.performance.capture_measures,e.init.performance.resources.enabled,e.init.user_actions.enabled,r,s];var c;let d;if(c=e,(0,_.Y)(S.hG,(e,t)=>se(e,t,c),c),function(e){(0,_.Y)(S.fF,(t,r)=>ae(t,r,e),e)}(e),qe(e),he(e),function(e){(0,_.Y)(S.V1,(t,r)=>oe(t,r,e),e)}(e),this.removeOnAbort=new AbortController,this.abortHandler=()=>{this.removeOnAbort.abort(),this.abortHandler=void 0},r){const u=function(e){if(!(0,n.dV)().o.WS)return e;const t=e.get("websockets");if(lt[t.debugId]++)return t;lt[t.debugId]=1,(0,K.G)(()=>{const e=(0,x.t)();ft.forEach(r=>{r.nrData.closedAt=e,r.nrData.closeCode=1001,r.nrData.closeReason="Page navigating away",r.nrData.closeWasClean=!1,r.nrData.openedAt&&(r.nrData.connectedDuration=e-r.nrData.openedAt),t.emit("ws",[r.nrData],r)})});class r extends WebSocket{static name="WebSocket";static toString(){return"function WebSocket() { [native code] }"}toString(){return"[object WebSocket]"}get[Symbol.toStringTag](){return r.name}#a(e){(e.__newrelic??={}).socketId=this.nrData.socketId,this.nrData.hasErrors??=!0}constructor(...e){super(...e),this.nrData=new pt(e[0],e[1]),this.addEventListener("open",()=>{this.nrData.openedAt=(0,x.t)(),["protocol","extensions","binaryType"].forEach(e=>{this.nrData[e]=this[e]}),ft.add(this)}),this.addEventListener("message",e=>{const{type:t,size:r}=ht(e.data);this.nrData.messageOrigin??=(0,ut.L)(e.origin),this.nrData.messageCount++,this.nrData.messageBytes+=r,this.nrData.messageBytesMin=Math.min(this.nrData.messageBytesMin||1/0,r),this.nrData.messageBytesMax=Math.max(this.nrData.messageBytesMax,r),(this.nrData.messageTypes??"").includes(t)||(this.nrData.messageTypes=this.nrData.messageTypes?"".concat(this.nrData.messageTypes,",").concat(t):t)}),this.addEventListener("close",e=>{this.nrData.closedAt=(0,x.t)(),this.nrData.closeCode=e.code,e.reason&&(this.nrData.closeReason=e.reason),this.nrData.closeWasClean=e.wasClean,this.nrData.connectedDuration=this.nrData.closedAt-this.nrData.openedAt,ft.delete(this),t.emit("ws",[this.nrData],this)})}addEventListener(e,t,...r){const n=this,i="function"==typeof t?function(...e){try{return t.apply(this,e)}catch(e){throw n.#a(e),e}}:t?.handleEvent?{handleEvent:function(...e){try{return t.handleEvent.apply(t,e)}catch(e){throw n.#a(e),e}}}:t;return super.addEventListener(e,i,...r)}send(e){if(this.readyState===WebSocket.OPEN){const{type:t,size:r}=ht(e);this.nrData.sendCount++,this.nrData.sendBytes+=r,this.nrData.sendBytesMin=Math.min(this.nrData.sendBytesMin||1/0,r),this.nrData.sendBytesMax=Math.max(this.nrData.sendBytesMax,r),(this.nrData.sendTypes??"").includes(t)||(this.nrData.sendTypes=this.nrData.sendTypes?"".concat(this.nrData.sendTypes,",").concat(t):t)}try{return super.send(e)}catch(e){throw this.#a(e),e}}close(...e){try{super.close(...e)}catch(e){throw this.#a(e),e}}}return p.gm.WebSocket=r,t}(this.ee);u.on("ws",e=>{(0,A.p)("ws-complete",[e],void 0,this.featureName,this.ee)})}if(s&&p.gm.addEventListener("securitypolicyviolation",e=>{(0,A.p)("spv",[e],void 0,t.K7.genericEvents,this.ee)},(0,G.jT)(!1,this.removeOnAbort.signal)),p.RI){if(je(this.ee,e),Ae(this.ee,e),d=Ye(this.ee),e.init.user_actions.enabled){function l(t){const r=(0,Ce.D)(t);return e.beacons.includes(r.hostname+":"+r.port)}function f(){d.emit("navChange")}a.Zp.forEach(e=>(0,G.sp)(e,e=>(0,A.p)("ua",[e],void 0,this.featureName,this.ee),!0)),a.qN.forEach(e=>{const t=(0,C.s)(e=>{(0,A.p)("ua",[e],void 0,this.featureName,this.ee)},500,{leading:!0});(0,G.sp)(e,t)}),p.gm.addEventListener("error",()=>{(0,A.p)("uaErr",[],void 0,t.K7.genericEvents,this.ee)},(0,G.jT)(!1,this.removeOnAbort.signal)),this.ee.on("open-xhr-start",(e,r)=>{l(e[1])||r.addEventListener("readystatechange",()=>{2===r.readyState&&(0,A.p)("uaXhr",[],void 0,t.K7.genericEvents,this.ee)},(0,G.jT)(void 0,this.removeOnAbort.signal))}),this.ee.on("fetch-start",e=>{e.length>=1&&!l(Me(e[0]))&&(0,A.p)("uaXhr",[],void 0,t.K7.genericEvents,this.ee)}),d.on("pushState-end",f),d.on("replaceState-end",f),window.addEventListener("hashchange",f,(0,G.jT)(!0,this.removeOnAbort.signal)),window.addEventListener("popstate",f,(0,G.jT)(!0,this.removeOnAbort.signal))}if(e.init.performance.resources.enabled&&p.gm.PerformanceObserver?.supportedEntryTypes.includes("resource")){new PerformanceObserver(e=>{e.getEntries().forEach(e=>{(0,A.p)("browserPerformance.resource",[e],void 0,this.featureName,this.ee)})}).observe({type:"resource",buffered:!0})}}o.some(e=>e)?this.importAggregator(e,()=>i.e(478).then(i.bind(i,8019))):this.deregisterDrain()}}var mt=i(2646);const vt=new Map;function yt(e,t,r,n,i=!0,s){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,u.R)(29);const o=function(e){return(e||w.ee).get("logger")}(e),a=(0,Re.YM)(o,void 0,s),c=new mt.y(w.P);c.level=n.level,c.customAttributes=n.customAttributes,c.autoCaptured=i;const d=t[r]?.[Re.Jt]||t[r];return vt.set(d,c),a.inPlace(t,[r],"wrap-logger-",()=>vt.get(d),void 0,!0),o}var bt=i(1910);class wt extends I{static featureName=re.TZ;constructor(e){var t;super(e,re.TZ),t=e,(0,_.Y)(S.$9,(e,r)=>ie(e,r,t),t),function(e){(0,_.Y)(S.Wb,(t,r,{customAttributes:n={},level:i=re.p_.INFO}={})=>{yt(e.ee,t,r,{customAttributes:n,level:i},!1,e)},e)}(e),he(e);const r=this.ee;["log","error","warn","info","debug","trace"].forEach(t=>{(0,bt.i)(p.gm.console[t]),yt(r,p.gm.console,t,{level:"log"===t?"info":t},void 0,e)}),this.ee.on("wrap-logger-end",function([e],t,n,i=[]){const{level:s,customAttributes:o,autoCaptured:a}=this;i.forEach(t=>{(0,ne.R)(r,e,o,s,a,t)})}),this.importAggregator(e,()=>i.e(478).then(i.bind(i,5288)))}}new H({features:[Ue,B,F,it,at,V,ge,gt,wt,dt],loaderType:"spa"})})()})();</script>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0' name='viewport'>
+<meta content='en-us' http-equiv='content-language'>
+<link href='https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='en' rel='alternate'>
+<link href='https://trailhead.salesforce.com/de/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='de' rel='alternate'>
+<link href='https://trailhead.salesforce.com/it/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='it' rel='alternate'>
+<link href='https://trailhead.salesforce.com/fr/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='fr' rel='alternate'>
+<link href='https://trailhead.salesforce.com/es/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='es' rel='alternate'>
+<link href='https://trailhead.salesforce.com/es-MX/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='es-mx' rel='alternate'>
+<link href='https://trailhead.salesforce.com/pt-BR/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='pt-br' rel='alternate'>
+<link href='https://trailhead.salesforce.com/ja/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='ja' rel='alternate'>
+<link href='https://trailhead.salesforce.com/ko/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='ko' rel='alternate'>
+<link href='https://trailhead.salesforce.com/zh-CN/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='zh-cn' rel='alternate'>
+<link href='https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections' hreflang='x-default' rel='alternate'>
+
+<link rel="canonical" href="https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections">
+<meta name="apple-itunes-app" content="app-id=1478801670"></meta>
+<meta name="slack-app-id" content="A02CBL2KKDE"></meta>
+
+<link rel="stylesheet" href="/assets/application-c4062c07a64cc0c490552945ade24101c7f5be5609b80d4beb86106180d9656c.css" media="all" />
+<link rel="stylesheet" href="/assets/context_nav-5f9d3cf85330e031375db2480f99c5bcbaaafe7b9df1922ba2d3d039e15ffb2c.css" media="all" />
+<link rel="stylesheet" href="/assets/wes_styles-6caf602a412fef78cea1936e4c0ddcabb02139d65aea7f131aef09f686c038ec.css" media="all" />
+
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": ["Course", "CreativeWork"],
+  "name": "Use Collections",
+  "description": "Learn the fundamentals of the Apex programming language.",
+  "isAccessibleForFree": "False",
+  "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": "False",
+    "cssSelector" : ".th-unit-hidden-content"
+  },
+  "offers": {
+    "@type": "Offer",
+    "category": "Free"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "PT20M"
+  },
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://trailhead.salesforce.com/#organization",
+    "name": "Trailhead",
+    "url": "https://trailhead.salesforce.com/#organization"
+  }
+}
+
+</script>
+
+<link rel="stylesheet" href="/packs/css/libs-7b79141f.css" />
+<link rel="stylesheet" href="/packs/css/styles-0a2ccad9.css" />
+<link rel="stylesheet" href="/packs/css/atomic-a1eae8a2.css" />
+<link rel="stylesheet" href="/assets/print-291a9c148552af775ae0646e7d4bfb87ac4f0e77f40cbd214234e7aa0eb39509.css" media="print" />
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+import { setLocale } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-locale.js";
+set("DEBUG", false);
+setLocale("en");
+
+
+</script>
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+set("USE_BADGE_LABELS", true);
+
+
+
+</script>
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+set("API_HOST", "https://trailhead.salesforce.com");
+
+
+</script>
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+set("EXPERIENCE_API_HOST", "https://trailhead.salesforce.com/services/mobile/graphql");
+
+
+</script>
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+set("TBID_COMMUNITY_URL", "https://trailblazer.me");
+
+
+</script>
+<script type='module'>
+import { set } from "https://ui.trailhead.com/components/v7.34.4/modules/trailhead-client-env.js";
+set("TBID_PROFILE_URL", "https://www.salesforce.com/trailblazer/");
+
+
+</script>
+
+<script>
+  window.thComponentsUrl = function(path) {
+    return "https://ui.trailhead.com/components/v7.34.4" + path;
+  }
+</script>
+<div id='https://ui.trailhead.com/lx-components/v2.21.6'></div>
+<link href='https://ui.trailhead.com/components/v7.34.4/css/tds.css' rel='stylesheet'>
+<link href='https://ui.trailhead.com/components/v7.34.4/css/tds-theme-provider.css' rel='stylesheet'>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-progress-bar.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-button-link.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-input.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-inline-toast-message.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-select.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-text-block.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-org-picker.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-modal.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-celebration-modal.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-button.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-badge-rating.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-social-sharing.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/thc.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-button-icon-link.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/tds-icon.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-alert.js' type='module'></script>
+<script src='https://ui.trailhead.com/components/v7.34.4/modules/th-footer.js' type='module'></script>
+<style>
+  :root {
+    --tds-z-index-tooltip: 90000;
+    --tds-z-index-overlay: 29998;
+    --tds-z-index-modal: 29999;
+  }
+</style>
+
+<script>
+  window.locale = "en"
+</script>
+<script src='/api/v1/ui/auth.js'></script>
+
+<script src="/packs/js/vendorCommon-65348f0c03bb8d89ea1f.chunk.js"></script>
+<script src="/packs/js/vendors~client-side-fb4efccd64a80f3e50c6.chunk.js"></script>
+<script src="/packs/js/client-side-fdda14ce8baa2aca5a7d.js"></script>
+<script src="/packs/js/vendor-4763cc853f610ae62408.chunk.js"></script>
+<script src="/packs/js/locales-bd39c50ba75070a918a8.chunk.js"></script>
+<script src="/packs/js/components-83ff73d4d6a374ba1eda.js"></script>
+<script src="/packs/js/ua-tracking-3c798dd01512bc2ecbfb.js"></script>
+<script src="/packs/js/visitor-cookies-5471ca6c002e2c105005.js"></script>
+<script src="/packs/js/cookie-consent-callbacks-c4067afff36a6ebd383b.js"></script>
+<script src="/packs/js/mobile-a11y-4e81b9bdad4816e0915b.js"></script>
+<script src="/packs/js/unit-adjustments-f7ebeab9b2112b65e5b6.js"></script>
+<script src="/packs/js/vendors~unitPageDigital-274be64063206175ee26.chunk.js"></script>
+<script src="/packs/js/unitPageDigital-4b82c3f67de0f49ff4b3.js"></script>
+<script src="/packs/js/highlightSyntax-34fcb4a5546318138cb1.js"></script>
+
+<meta content='36b7708d-ff04-41af-a35a-dd1aad84ea83' name='ua:temp_visitor_id'>
+<meta content='unit_viewed' name='ua:event_name'>
+<meta content='{&quot;lang&quot;:&quot;en&quot;,&quot;unit_id&quot;:2346526,&quot;unit_api_name&quot;:&quot;use-collections&quot;,&quot;unit_uid&quot;:&quot;025fde39-1ec9-4a01-de2b-15fd40acd747&quot;,&quot;trail_api_name&quot;:&quot;build-apex-coding-skills&quot;,&quot;namespace_api_name&quot;:&quot;learn&quot;}' name='ua:event_properties'>
+
+<script id="tbid_script">
+    try {
+        window.localStorage.removeItem("tbid");
+    } catch (e) {
+        console.error('Error setting/removing tbid:', e);
+    }
+    document.getElementById("tbid_script").remove();
+</script>
+
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Trailhead",
+  "alternateName": "Trailhead by Salesforce",
+  "logo": "https://trailhead.salesforce.com/logo.png",
+  "url": "https://trailhead.salesforce.com",
+  "description": "Everyone can learn Salesforce. Whether you are an admin, user, or developer, there is a trail for you.",
+  "telephone": "1-800-664-9073",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Salesforce Tower, 415 Mission Street, 3rd Floor",
+    "addressLocality": "San Francisco",
+    "addressCountry": "US",
+    "addressRegion": "CA",
+    "postalCode": "94105"
+  }
+}
+
+</script>
+
+</head>
+<body class='theme--trailhead trailhead-locale-en' id='atomic'>
+<div id='main-wrapper'>
+<style>
+  .th-branding__border-color {
+    border-color: #00a1df !important;
+  }
+  .th-branding__background-color--primary-light {
+    background-color: rgba(0, 161, 223, 0.05) !important;
+  }
+  
+  .th-branding__background-color--secondary {
+      background-color: #00407e !important;
+  }
+</style>
+
+
+  
+<script src="/packs/js/digital-nav-a91e33a03ce24097b39f.js"></script>
+
+<a class="skip-nav" href="#main">Skip to main content</a>
+
+<div id="global-nav-container">
+</div>
+
+  <nav id="context-nav" class="vc-context-nav" aria-label="Main navigation" data-controller="context-nav mobile-nav">
+  <div class="vc-context-nav__container">
+      <div class="vc-context-nav__logo">
+        <a class="vc-context-nav__logo-link" href="/">
+          <span class="vc-context-nav__logo-text">Trailhead</span>
+        </a>
+      </div>
+
+    <button class="vc-context-nav__mobile-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="context-nav-menu" data-action="click->mobile-nav#toggle" data-mobile-nav-target="button">
+      <span class="vc-context-nav__mobile-toggle-icon"></span>
+    </button>
+
+    <ul id="context-nav-menu" class="vc-context-nav__menu" data-mobile-nav-target="menu">
+        <li class="vc-context-nav__item" id="nav-item-5">
+    <a class="vc-context-nav__link" href="/" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.home" data-test-id="trailhead.home">
+      Home
+</a></li>
+        <li class="vc-context-nav__item" id="nav-item-7" data-controller="dropdown" data-action="mouseenter-&gt;dropdown#open">
+    <button class="vc-context-nav__trigger" type="button" aria-expanded="false" aria-controls="dropdown-7" data-action="click-&gt;dropdown#toggle keydown-&gt;dropdown#handleKeydown" data-dropdown-target="trigger" data-test-id="trailhead.learn">
+      <span class="vc-context-nav__trigger-text">Learn</span>
+      <span class="vc-context-nav__trigger-icon" aria-hidden="true"></span>
+</button>    <div class="vc-context-nav__dropdown " id="dropdown-7" data-dropdown-target="menu" data-action="keydown->dropdown#handleKeydown" hidden>
+  <div class="vc-context-nav__dropdown-inner">
+      <div class="vc-context-nav__dropdown-section vc-context-nav__dropdown-section--separator">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Grow your Salesforce expertise</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/badges" data-action="click-&gt;context-nav#trackClick">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Badges
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Gain new skills and hands-on experience through bite-sized units</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trails" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.trails" data-test-id="trailhead.trails">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Trails
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Follow guided learning paths</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailhead-journeys" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.trail_series" data-test-id="trailhead.trail_series">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Trailhead Journeys
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Curated trails that build product expertise</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/superbadges" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.superbadges" data-test-id="trailhead.superbadges">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Superbadges
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Get hands-on applying your skills to solve real-world challenges</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailmixes" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.trailmixes" data-test-id="trailhead.trailmixes">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Trailmixes
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Create and follow custom learning playlists</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+      <div class="vc-context-nav__dropdown-section vc-context-nav__dropdown-section--separator">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Other learning tools</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/agentblazer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.agentblazer" data-test-id="trailhead.agentblazer">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Become an Agentblazer
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn in-demand AI skills to build the future</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/quests" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.quests" data-test-id="trailhead.quests">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Trailblazer Quests
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn new skills and win fun prizes</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/mobile" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.mobile" data-test-id="trailhead.mobile">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Trailhead Mobile App
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Skill up anytime, anywhere</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://trailheadacademy.salesforce.com/" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.academy" data-test-id="trailhead.academy">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Instructor-led <span class="vc-context-nav__dropdown-link-label-end">Training<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn directly from experts</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://www.salesforce.com/workforce-development/higher-education/" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.academic_programs" data-test-id="trailhead.academic_programs">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Academic <span class="vc-context-nav__dropdown-link-label-end">Programs<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Explore resources for students and educators</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</li>
+        <li class="vc-context-nav__item" id="nav-item-32" data-controller="dropdown" data-action="mouseenter-&gt;dropdown#open">
+    <button class="vc-context-nav__trigger" type="button" aria-expanded="false" aria-controls="dropdown-32" data-action="click-&gt;dropdown#toggle keydown-&gt;dropdown#handleKeydown" data-dropdown-target="trigger" data-test-id="trailhead.community">
+      <span class="vc-context-nav__trigger-text">Community</span>
+      <span class="vc-context-nav__trigger-icon" aria-hidden="true"></span>
+</button>    <div class="vc-context-nav__dropdown vc-context-nav__dropdown--single-column" id="dropdown-32" data-dropdown-target="menu" data-action="keydown->dropdown#handleKeydown" hidden>
+  <div class="vc-context-nav__dropdown-inner">
+      <div class="vc-context-nav__dropdown-section ">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Connect with the Trailblazer Community</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailblazer-community/feed" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.feed" data-test-id="trailhead.feed">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Feed
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Ask and answer questions to build your skills</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailblazer-community/groups" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.groups" data-test-id="trailhead.groups">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Groups
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Meet and collaborate with Trailblazers to grow your network</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailblazer-community/topics" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.topics" data-test-id="trailhead.topics">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Topics
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Discover featured and trending topics</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailblazer-community/meetings" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.local" data-test-id="trailhead.local">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Group Meetings
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Join local community group meetings</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://www.salesforce.com/blog/category/trailblazer/" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.blog" data-test-id="trailhead.blog">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    360 <span class="vc-context-nav__dropdown-link-label-end">Blog<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn about new Salesforce innovations</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</li>
+        <li class="vc-context-nav__item" id="nav-item-44" data-controller="dropdown" data-action="mouseenter-&gt;dropdown#open">
+    <button class="vc-context-nav__trigger" type="button" aria-expanded="false" aria-controls="dropdown-44" data-action="click-&gt;dropdown#toggle keydown-&gt;dropdown#handleKeydown" data-dropdown-target="trigger" data-test-id="trailhead.career_growth">
+      <span class="vc-context-nav__trigger-text">Career Growth</span>
+      <span class="vc-context-nav__trigger-icon" aria-hidden="true"></span>
+</button>    <div class="vc-context-nav__dropdown vc-context-nav__dropdown--single-column" id="dropdown-44" data-dropdown-target="menu" data-action="keydown->dropdown#handleKeydown" hidden>
+  <div class="vc-context-nav__dropdown-inner">
+      <div class="vc-context-nav__dropdown-section ">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Build your Salesforce career</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/career-path" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.career_paths" data-test-id="trailhead.career_paths">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Role-Based Career Paths
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Explore which career is right for you and learn role-based skills</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</li>
+        <li class="vc-context-nav__item" id="nav-item-48" data-controller="dropdown" data-action="mouseenter-&gt;dropdown#open">
+    <button class="vc-context-nav__trigger" type="button" aria-expanded="false" aria-controls="dropdown-48" data-action="click-&gt;dropdown#toggle keydown-&gt;dropdown#handleKeydown" data-dropdown-target="trigger" data-test-id="trailhead.credentials">
+      <span class="vc-context-nav__trigger-text">Certifications</span>
+      <span class="vc-context-nav__trigger-icon" aria-hidden="true"></span>
+</button>    <div class="vc-context-nav__dropdown " id="dropdown-48" data-dropdown-target="menu" data-action="keydown->dropdown#handleKeydown" hidden>
+  <div class="vc-context-nav__dropdown-inner">
+      <div class="vc-context-nav__dropdown-section vc-context-nav__dropdown-section--separator">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Earn resume-worthy credentials</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://trailheadacademy.salesforce.com/certification-overview" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.certs_overview" data-test-id="trailhead.certs_overview">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Certifications <span class="vc-context-nav__dropdown-link-label-end">Overview<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Discover how to prove your expertise with globally-recognized certifications.</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/credentials/administratoroverview/" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.certs_by_role" data-test-id="trailhead.certs_by_role">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Certifications by Role
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Find certifications specific to your role.</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://trailheadacademy.salesforce.com/all-offerings#f-assetType=Certification" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.certs_browse" data-test-id="trailhead.certs_browse">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Browse All <span class="vc-context-nav__dropdown-link-label-end">Certifications<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Explore the catalog of certifications designed to prove your expertise.</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+      <div class="vc-context-nav__dropdown-section ">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Discover resources</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/content/learn/trails/maintain-your-salesforce-certifications" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.maintain_certs" data-test-id="trailhead.maintain_certs">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Maintain Certifications
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn about recent product updates and demonstrate your knowledge.</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/credentials/verification" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.verify_certs" data-test-id="trailhead.verify_certs">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Verify Certifications
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Validate certifications and view your maintenance requirements.</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</li>
+        <li class="vc-context-nav__item" id="nav-item-61" data-controller="dropdown" data-action="mouseenter-&gt;dropdown#open">
+    <button class="vc-context-nav__trigger" type="button" aria-expanded="false" aria-controls="dropdown-61" data-action="click-&gt;dropdown#toggle keydown-&gt;dropdown#handleKeydown" data-dropdown-target="trigger" data-test-id="trailhead.help">
+      <span class="vc-context-nav__trigger-text">Help</span>
+      <span class="vc-context-nav__trigger-icon" aria-hidden="true"></span>
+</button>    <div class="vc-context-nav__dropdown " id="dropdown-61" data-dropdown-target="menu" data-action="keydown->dropdown#handleKeydown" hidden>
+  <div class="vc-context-nav__dropdown-inner">
+      <div class="vc-context-nav__dropdown-section vc-context-nav__dropdown-section--separator">
+          <h3 class="vc-context-nav__dropdown-eyebrow">All support</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.salesforce_help" data-test-id="trailhead.salesforce_help">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Salesforce <span class="vc-context-nav__dropdown-link-label-end">Help<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Get help with Trailhead, Instructor-led Training, Certifications, Salesforce products, and more</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s/cases" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.my_cases" data-test-id="trailhead.my_cases">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    My <span class="vc-context-nav__dropdown-link-label-end">Cases<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Review and receive updates about submitted cases</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="/trailblazer-community/topics/trailheadchallenges?sort=LAST_MODIFIED_DATE_DESC&amp;ref=nav" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.hoc_help" data-test-id="trailhead.hoc_help">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Hands-On Challenge Help
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Get guidance from experts in the Trailblazer Community</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+      <div class="vc-context-nav__dropdown-section ">
+          <h3 class="vc-context-nav__dropdown-eyebrow">Trailblazer resources</h3>
+        <ul class="vc-context-nav__dropdown-list">
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://ideas.salesforce.com/" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.idea_exchange" data-test-id="trailhead.idea_exchange">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    <span class="vc-context-nav__dropdown-link-label-end">IdeaExchange<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Share and vote on ideas for improving Salesforce products</span>
+                </div>
+</a>            </li>
+            <li class="vc-context-nav__dropdown-item">
+              <a class="vc-context-nav__dropdown-link" href="https://www.salesforce.com/company/be-a-trailblazer/?sfdc-redirect=387" target="_blank" rel="noopener noreferrer" data-action="click-&gt;context-nav#trackClick" data-tracking-key="trailhead.be_a_trailblazer" data-test-id="trailhead.be_a_trailblazer">
+                <div class="vc-context-nav__dropdown-link-content">
+                  <span class="vc-context-nav__dropdown-link-label">
+                    Be A <span class="vc-context-nav__dropdown-link-label-end">Trailblazer<svg class="vc-context-nav__external-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 12 12" aria-hidden="true">
+  <path d="M11.2.5h-4.4c-.2,0-.4.1-.4.3v.7c0,.2.2.4.4.4h1.8c.2,0,.3.2.2.4l-3.9,3.9c-.1.1-.1.3,0,.5l.5.5c.1.1.3.1.5,0l3.9-3.9c.1-.1.4,0,.4.2v1.8c0,.2.2.4.4.4h.7c.2,0,.3-.2.3-.4V.8c0-.2-.1-.3-.3-.3ZM8.4,5.9l-.8.8c-.1.1-.2.3-.2.5v2.6c0,.2-.2.3-.3.3H2.2c-.2,0-.3-.2-.3-.3v-4.8c0-.2.2-.3.3-.3h2.7c.2,0,.4,0,.5-.2l.8-.8c.1-.1,0-.4-.2-.4H1.4c-.5,0-.9.4-.9.9v6.5c0,.5.4.9.9.9h6.5c.5,0,.9-.4.9-.9v-4.6c0-.2-.3-.3-.4-.2Z"/>
+</svg>
+</span>
+                  </span>
+                    <span class="vc-context-nav__dropdown-link-description">Learn what it means to be a Trailblazer</span>
+                </div>
+</a>            </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</li>
+    </ul>
+
+      <div class="vc-context-nav__utility">
+        <a class="vc-context-nav__utility-button" href="/sessions/users/new?type=tbidsignup" target="_blank" rel="noopener noreferrer" aria-label="Sign Up, link opens in new window">
+          Sign Up
+        </a>
+      </div>
+  </div>
+</nav>
+
+  <div class="vc-context-nav-shim"></div>
+
+<script src="https://a.sfdcstatic.com/digital/xsf/components/v1-stable/navs.js" type="module"></script>
+
+<script src="/assets/digital_header-295d426313e426e1ee9fd3227193da65e29bce8955f163d00c9621432eb1f377.js" async="async" data-property-name="trailhead" data-community-uri="https://iis.digital.salesforce.com" data-community-api-url="https://trailhead.salesforce.com/services/community" data-context-nav-config="{&quot;ID&quot;:1,&quot;newWindowAlt&quot;:&quot;link opens in new window&quot;,&quot;isLogoEnabled&quot;:false,&quot;variation&quot;:&quot;static&quot;,&quot;propertyTitle&quot;:{&quot;ID&quot;:2,&quot;trackingKey&quot;:&quot;trailhead.title&quot;,&quot;label&quot;:&quot;Trailhead&quot;,&quot;url&quot;:&quot;/&quot;},&quot;propertyLogo&quot;:{&quot;ID&quot;:3,&quot;alt&quot;:&quot;Trailhead&quot;},&quot;menuGroup&quot;:{&quot;ID&quot;:4,&quot;menuItems&quot;:[{&quot;ID&quot;:5,&quot;link&quot;:{&quot;ID&quot;:6,&quot;trackingKey&quot;:&quot;trailhead.home&quot;,&quot;label&quot;:&quot;Home&quot;,&quot;url&quot;:&quot;/&quot;}},{&quot;ID&quot;:7,&quot;trackingKey&quot;:&quot;trailhead.learn&quot;,&quot;title&quot;:&quot;Learn&quot;,&quot;submenu&quot;:[{&quot;ID&quot;:8,&quot;menuItems&quot;:[{&quot;ID&quot;:11,&quot;link&quot;:{&quot;ID&quot;:12,&quot;label&quot;:&quot;Badges&quot;,&quot;url&quot;:&quot;/badges&quot;},&quot;description&quot;:&quot;Gain new skills and hands-on experience through bite-sized units&quot;},{&quot;ID&quot;:9,&quot;link&quot;:{&quot;ID&quot;:10,&quot;trackingKey&quot;:&quot;trailhead.trails&quot;,&quot;label&quot;:&quot;Trails&quot;,&quot;url&quot;:&quot;/trails&quot;},&quot;description&quot;:&quot;Follow guided learning paths&quot;},{&quot;ID&quot;:11,&quot;link&quot;:{&quot;ID&quot;:12,&quot;trackingKey&quot;:&quot;trailhead.trail_series&quot;,&quot;label&quot;:&quot;Trailhead Journeys&quot;,&quot;url&quot;:&quot;/trailhead-journeys&quot;},&quot;description&quot;:&quot;Curated trails that build product expertise&quot;},{&quot;ID&quot;:17,&quot;link&quot;:{&quot;ID&quot;:18,&quot;trackingKey&quot;:&quot;trailhead.superbadges&quot;,&quot;label&quot;:&quot;Superbadges&quot;,&quot;url&quot;:&quot;/superbadges&quot;},&quot;description&quot;:&quot;Get hands-on applying your skills to solve real-world challenges&quot;},{&quot;ID&quot;:19,&quot;link&quot;:{&quot;ID&quot;:20,&quot;trackingKey&quot;:&quot;trailhead.trailmixes&quot;,&quot;label&quot;:&quot;Trailmixes&quot;,&quot;url&quot;:&quot;/trailmixes&quot;},&quot;description&quot;:&quot;Create and follow custom learning playlists&quot;}],&quot;eyebrowHeading&quot;:&quot;Grow your Salesforce expertise&quot;,&quot;hasSeparator&quot;:true},{&quot;ID&quot;:21,&quot;menuItems&quot;:[{&quot;ID&quot;:22,&quot;link&quot;:{&quot;ID&quot;:23,&quot;trackingKey&quot;:&quot;trailhead.agentblazer&quot;,&quot;label&quot;:&quot;Become an Agentblazer&quot;,&quot;url&quot;:&quot;/agentblazer&quot;},&quot;description&quot;:&quot;Learn in-demand AI skills to build the future&quot;},{&quot;ID&quot;:24,&quot;link&quot;:{&quot;ID&quot;:25,&quot;trackingKey&quot;:&quot;trailhead.quests&quot;,&quot;label&quot;:&quot;Trailblazer Quests&quot;,&quot;url&quot;:&quot;/quests&quot;},&quot;description&quot;:&quot;Learn new skills and win fun prizes&quot;},{&quot;ID&quot;:26,&quot;link&quot;:{&quot;ID&quot;:27,&quot;trackingKey&quot;:&quot;trailhead.mobile&quot;,&quot;label&quot;:&quot;Trailhead Mobile App&quot;,&quot;url&quot;:&quot;/mobile&quot;},&quot;description&quot;:&quot;Skill up anytime, anywhere&quot;},{&quot;ID&quot;:28,&quot;link&quot;:{&quot;ID&quot;:29,&quot;trackingKey&quot;:&quot;trailhead.academy&quot;,&quot;label&quot;:&quot;Instructor-led Training&quot;,&quot;url&quot;:&quot;https://trailheadacademy.salesforce.com/&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Learn directly from experts&quot;},{&quot;ID&quot;:30,&quot;link&quot;:{&quot;ID&quot;:31,&quot;trackingKey&quot;:&quot;trailhead.academic_programs&quot;,&quot;label&quot;:&quot;Academic Programs&quot;,&quot;url&quot;:&quot;https://www.salesforce.com/workforce-development/higher-education/&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Explore resources for students and educators&quot;}],&quot;eyebrowHeading&quot;:&quot;Other learning tools&quot;,&quot;hasSeparator&quot;:true}]},{&quot;ID&quot;:32,&quot;trackingKey&quot;:&quot;trailhead.community&quot;,&quot;title&quot;:&quot;Community&quot;,&quot;submenu&quot;:[{&quot;ID&quot;:33,&quot;menuItems&quot;:[{&quot;ID&quot;:34,&quot;link&quot;:{&quot;ID&quot;:35,&quot;trackingKey&quot;:&quot;trailhead.feed&quot;,&quot;label&quot;:&quot;Feed&quot;,&quot;url&quot;:&quot;/trailblazer-community/feed&quot;},&quot;description&quot;:&quot;Ask and answer questions to build your skills&quot;},{&quot;ID&quot;:36,&quot;link&quot;:{&quot;ID&quot;:37,&quot;trackingKey&quot;:&quot;trailhead.groups&quot;,&quot;label&quot;:&quot;Groups&quot;,&quot;url&quot;:&quot;/trailblazer-community/groups&quot;},&quot;description&quot;:&quot;Meet and collaborate with Trailblazers to grow your network&quot;},{&quot;ID&quot;:38,&quot;link&quot;:{&quot;ID&quot;:39,&quot;trackingKey&quot;:&quot;trailhead.topics&quot;,&quot;label&quot;:&quot;Topics&quot;,&quot;url&quot;:&quot;/trailblazer-community/topics&quot;},&quot;description&quot;:&quot;Discover featured and trending topics&quot;},{&quot;ID&quot;:40,&quot;link&quot;:{&quot;ID&quot;:41,&quot;trackingKey&quot;:&quot;trailhead.local&quot;,&quot;label&quot;:&quot;Group Meetings&quot;,&quot;url&quot;:&quot;/trailblazer-community/meetings&quot;,&quot;target&quot;:&quot;&quot;},&quot;description&quot;:&quot;Join local community group meetings&quot;},{&quot;ID&quot;:42,&quot;link&quot;:{&quot;ID&quot;:43,&quot;trackingKey&quot;:&quot;trailhead.blog&quot;,&quot;label&quot;:&quot;360 Blog&quot;,&quot;url&quot;:&quot;https://www.salesforce.com/blog/category/trailblazer/&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Learn about new Salesforce innovations&quot;}],&quot;eyebrowHeading&quot;:&quot;Connect with the Trailblazer Community&quot;}]},{&quot;ID&quot;:44,&quot;trackingKey&quot;:&quot;trailhead.career_growth&quot;,&quot;title&quot;:&quot;Career Growth&quot;,&quot;submenu&quot;:[{&quot;ID&quot;:45,&quot;menuItems&quot;:[{&quot;ID&quot;:46,&quot;link&quot;:{&quot;ID&quot;:47,&quot;trackingKey&quot;:&quot;trailhead.career_paths&quot;,&quot;label&quot;:&quot;Role-Based Career Paths&quot;,&quot;url&quot;:&quot;/career-path&quot;},&quot;description&quot;:&quot;Explore which career is right for you and learn role-based skills&quot;}],&quot;eyebrowHeading&quot;:&quot;Build your Salesforce career&quot;}]},{&quot;ID&quot;:48,&quot;trackingKey&quot;:&quot;trailhead.credentials&quot;,&quot;title&quot;:&quot;Certifications&quot;,&quot;submenu&quot;:[{&quot;ID&quot;:49,&quot;menuItems&quot;:[{&quot;ID&quot;:50,&quot;link&quot;:{&quot;ID&quot;:51,&quot;trackingKey&quot;:&quot;trailhead.certs_overview&quot;,&quot;label&quot;:&quot;Certifications Overview&quot;,&quot;url&quot;:&quot;https://trailheadacademy.salesforce.com/certification-overview&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Discover how to prove your expertise with globally-recognized certifications.&quot;},{&quot;ID&quot;:52,&quot;link&quot;:{&quot;ID&quot;:53,&quot;trackingKey&quot;:&quot;trailhead.certs_by_role&quot;,&quot;label&quot;:&quot;Certifications by Role&quot;,&quot;url&quot;:&quot;/credentials/administratoroverview/&quot;},&quot;description&quot;:&quot;Find certifications specific to your role.&quot;},{&quot;ID&quot;:54,&quot;link&quot;:{&quot;ID&quot;:55,&quot;trackingKey&quot;:&quot;trailhead.certs_browse&quot;,&quot;label&quot;:&quot;Browse All Certifications&quot;,&quot;url&quot;:&quot;https://trailheadacademy.salesforce.com/all-offerings#f-assetType=Certification&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Explore the catalog of certifications designed to prove your expertise.&quot;}],&quot;eyebrowHeading&quot;:&quot;Earn resume-worthy credentials&quot;,&quot;hasSeparator&quot;:true},{&quot;ID&quot;:56,&quot;menuItems&quot;:[{&quot;ID&quot;:57,&quot;link&quot;:{&quot;ID&quot;:58,&quot;trackingKey&quot;:&quot;trailhead.maintain_certs&quot;,&quot;label&quot;:&quot;Maintain Certifications&quot;,&quot;url&quot;:&quot;/content/learn/trails/maintain-your-salesforce-certifications&quot;},&quot;description&quot;:&quot;Learn about recent product updates and demonstrate your knowledge.&quot;},{&quot;ID&quot;:59,&quot;link&quot;:{&quot;ID&quot;:60,&quot;trackingKey&quot;:&quot;trailhead.verify_certs&quot;,&quot;label&quot;:&quot;Verify Certifications&quot;,&quot;url&quot;:&quot;/credentials/verification&quot;},&quot;description&quot;:&quot;Validate certifications and view your maintenance requirements.&quot;}],&quot;eyebrowHeading&quot;:&quot;Discover resources&quot;}]},{&quot;ID&quot;:61,&quot;trackingKey&quot;:&quot;trailhead.help&quot;,&quot;title&quot;:&quot;Help&quot;,&quot;submenu&quot;:[{&quot;ID&quot;:62,&quot;menuItems&quot;:[{&quot;ID&quot;:63,&quot;link&quot;:{&quot;ID&quot;:64,&quot;trackingKey&quot;:&quot;trailhead.salesforce_help&quot;,&quot;label&quot;:&quot;Salesforce Help&quot;,&quot;url&quot;:&quot;https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Get help with Trailhead, Instructor-led Training, Certifications, Salesforce products, and more&quot;},{&quot;ID&quot;:65,&quot;link&quot;:{&quot;ID&quot;:66,&quot;trackingKey&quot;:&quot;trailhead.my_cases&quot;,&quot;label&quot;:&quot;My Cases&quot;,&quot;url&quot;:&quot;https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s/cases&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Review and receive updates about submitted cases&quot;},{&quot;ID&quot;:67,&quot;link&quot;:{&quot;ID&quot;:68,&quot;trackingKey&quot;:&quot;trailhead.hoc_help&quot;,&quot;label&quot;:&quot;Hands-On Challenge Help&quot;,&quot;url&quot;:&quot;/trailblazer-community/topics/trailheadchallenges?sort=LAST_MODIFIED_DATE_DESC\u0026ref=nav&quot;},&quot;description&quot;:&quot;Get guidance from experts in the Trailblazer Community&quot;}],&quot;eyebrowHeading&quot;:&quot;All support&quot;,&quot;hasSeparator&quot;:true},{&quot;ID&quot;:69,&quot;menuItems&quot;:[{&quot;ID&quot;:70,&quot;link&quot;:{&quot;ID&quot;:71,&quot;trackingKey&quot;:&quot;trailhead.idea_exchange&quot;,&quot;label&quot;:&quot;IdeaExchange&quot;,&quot;url&quot;:&quot;https://ideas.salesforce.com/&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Share and vote on ideas for improving Salesforce products&quot;},{&quot;ID&quot;:72,&quot;link&quot;:{&quot;ID&quot;:73,&quot;trackingKey&quot;:&quot;trailhead.be_a_trailblazer&quot;,&quot;label&quot;:&quot;Be A Trailblazer&quot;,&quot;url&quot;:&quot;https://www.salesforce.com/company/be-a-trailblazer/?sfdc-redirect=387&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;description&quot;:&quot;Learn what it means to be a Trailblazer&quot;}],&quot;eyebrowHeading&quot;:&quot;Trailblazer resources&quot;}]}]},&quot;utilityNavigation&quot;:{&quot;ID&quot;:74,&quot;ctamain&quot;:{&quot;ID&quot;:75,&quot;cta&quot;:{&quot;ID&quot;:76,&quot;trackingKey&quot;:&quot;utility.sign_up&quot;,&quot;label&quot;:&quot;Sign Up&quot;,&quot;ariaLabel&quot;:&quot;Sign Up&quot;,&quot;url&quot;:&quot;/sessions/users/new?type=tbidsignup&quot;,&quot;variant&quot;:&quot;primary&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;inMobileHeader&quot;:false}}}" data-global-nav-config="{&quot;id&quot;:&quot;global-nav&quot;,&quot;hideContent&quot;:&quot;false&quot;,&quot;origin&quot;:&quot;https://wp.sfdcdigital.com/en-US/wp-json&quot;,&quot;tbidModuleOverride&quot;:&quot;https://trailhead.salesforce.com/assets/iis-tbid-simple-c78e464cdc89429ea55264ad74031bde417e81fda519334df753b0da21200caf.js&quot;,&quot;contextNavEnabled&quot;:&quot;true&quot;,&quot;contextMenuOverride&quot;:&quot;true&quot;,&quot;search&quot;:&quot;true&quot;,&quot;searchPlaceholder&quot;:&quot;Search Trailhead&quot;,&quot;searchSiteUrl&quot;:&quot;https://trailhead.salesforce.com/search/learning?tab=LEARNING&quot;,&quot;searchSite&quot;:&quot;th&quot;,&quot;locale&quot;:&quot;&quot;,&quot;searchWithQuickLinks&quot;:&quot;false&quot;,&quot;searchLocale&quot;:&quot;en&quot;,&quot;contactMenuOverride&quot;:&quot;true&quot;,&quot;contactLinksOverride&quot;:&quot;[{\&quot;label\&quot;:\&quot;Contact Sales\&quot;,\&quot;url\&quot;:\&quot;https://www.salesforce.com/company/contact-us/?d=cta-header-9\&quot;,\&quot;target\&quot;:\&quot;_self\&quot;},{\&quot;label\&quot;:\&quot;Contact Support\&quot;,\&quot;url\&quot;:\&quot;https://help.salesforce.com/s/support\&quot;,\&quot;target\&quot;:\&quot;_self\&quot;},{\&quot;label\&quot;:\&quot;Contact Trailhead\&quot;,\&quot;url\&quot;:\&quot;https://trailhead.salesforce.com/help?support=home\&quot;,\&quot;target\&quot;:\&quot;_self\&quot;}]&quot;,&quot;loginTrailblazerLabel&quot;:&quot;Trailhead&quot;,&quot;searchOriginLevelTwo&quot;:&quot;null&quot;,&quot;searchVariant&quot;:&quot;search-input&quot;,&quot;fixedHeader&quot;:&quot;true&quot;}" data-subnav-present="false" data-skip-subnav="true" data-context-nav-component="true"></script>
+
+  <div class='th-sticky-breadcrumb'>
+<div class='th-sticky-breadcrumb__content th-bg--white'>
+<div class='slds-container_x-large slds-container_center slds-p-horizontal_medium th-text--small slds-p-vertical_medium'>
+<nav aria-label='Breadcrumbs' role='navigation'>
+<ol class='th-breadcrumb slds-breadcrumb slds-list_horizontal slds-wrap'>
+<li class='th-breadcrumb__item slds-breadcrumb__item'>
+<a class="th-breadcrumb__link" href="/content/learn/trails/build-apex-coding-skills">Build Apex Coding Skills</a>
+<div class='th-breadcrumb__item__icon'>
+<span class='slds-icon_container slds-icon-utility-chevronright' style='' title=''>
+<svg aria-hidden='true' class='slds-icon_xx-small'>
+<use xlink:href='/assets/icons/utility-sprite/svg/symbols-e6382c2038036b01b4230804b934660723c3fa4f23aab0ef6bfce6541ad19590.svg#chevronright' xmlns:xlink='http://www.w3.org/1999/xlink'></use>
+</svg>
+</span>
+
+</div>
+</li>
+<li class='th-breadcrumb__item slds-breadcrumb__item'>
+<a class="th-breadcrumb__link" href="/content/learn/modules/apex-basics-for-admins?trail_id=build-apex-coding-skills">Apex Basics for Admins</a>
+<div class='th-breadcrumb__item__icon'>
+<span class='slds-icon_container slds-icon-utility-chevronright' style='' title=''>
+<svg aria-hidden='true' class='slds-icon_xx-small'>
+<use xlink:href='/assets/icons/utility-sprite/svg/symbols-e6382c2038036b01b4230804b934660723c3fa4f23aab0ef6bfce6541ad19590.svg#chevronright' xmlns:xlink='http://www.w3.org/1999/xlink'></use>
+</svg>
+</span>
+
+</div>
+</li>
+<li class='th-breadcrumb__item slds-breadcrumb__item'>
+<div data-react-class="units/UnitsBreadcrumbPopover" data-react-props="{&quot;popover&quot;:true,&quot;headingTitle&quot;:&quot;Apex Basics for Admins&quot;,&quot;headingImgUrl&quot;:&quot;https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/cb318c4c53e69345a903fedd62fdee64_badge.png&quot;,&quot;contentTypeLabel&quot;:&quot;unit&quot;,&quot;contentPath&quot;:&quot;/content/learn/modules/apex-basics-for-admins?trail_id=build-apex-coding-skills&quot;,&quot;units&quot;:[{&quot;title&quot;:&quot;Get Started with Apex&quot;,&quot;path&quot;:&quot;/content/learn/modules/apex-basics-for-admins/get-started-with-apex?trail_id=build-apex-coding-skills&quot;,&quot;time&quot;:20,&quot;isComplete&quot;:false,&quot;is_current_page&quot;:false},{&quot;title&quot;:&quot;Practice in the Developer Console&quot;,&quot;path&quot;:&quot;/content/learn/modules/apex-basics-for-admins/practice-in-the-developer-console?trail_id=build-apex-coding-skills&quot;,&quot;time&quot;:20,&quot;isComplete&quot;:false,&quot;is_current_page&quot;:false},{&quot;title&quot;:&quot;Use Collections&quot;,&quot;path&quot;:&quot;/content/learn/modules/apex-basics-for-admins/use-collections?trail_id=build-apex-coding-skills&quot;,&quot;time&quot;:20,&quot;isComplete&quot;:false,&quot;is_current_page&quot;:false},{&quot;title&quot;:&quot;Control Data Flow&quot;,&quot;path&quot;:&quot;/content/learn/modules/apex-basics-for-admins/control-data-flow?trail_id=build-apex-coding-skills&quot;,&quot;time&quot;:20,&quot;isComplete&quot;:false,&quot;is_current_page&quot;:false},{&quot;title&quot;:&quot;Use Loops&quot;,&quot;path&quot;:&quot;/content/learn/modules/apex-basics-for-admins/use-loops?trail_id=build-apex-coding-skills&quot;,&quot;time&quot;:15,&quot;isComplete&quot;:false,&quot;is_current_page&quot;:false}],&quot;label&quot;:&quot;Use Collections&quot;}" data-react-cache-id="units/UnitsBreadcrumbPopover-0"></div>
+</li>
+</ol>
+</nav>
+
+</div>
+</div>
+</div>
+
+
+
+  <script>
+  window.Trailhead = window.Trailhead || {};
+  window.Trailhead.ContentService = window.Trailhead.ContentService || {};
+  window.Trailhead.ContentService.inPreview = false
+</script>
+
+  
+
+
+<main id='main'>
+<div class='th-bg--light' style='position: relative;'>
+<div class='slds-container_x-large slds-container_center slds-p-around_x-large' id='th-unit-content'>
+<div class='slds-grid slds-wrap'>
+<div class='unit-right-col unit-sidebar slds-large-size_3-of-12 slds-size_12-of-12 slds-col slds-is-relative'>
+<div class='unit-right-col__sticky'>
+<div class='slds-m-bottom_medium slds-show_large' id='unit-sidebar'>
+<h3 class='th-text--small th-text--bold'>
+Time Estimate
+</h3>
+<div class='sidebar-content'>
+<p class='slds-text-body_small'>
+<span class='slds-icon_container slds-icon-utility-clock' style='' title=''>
+<svg aria-hidden='true' class='slds-icon slds-icon_x-small slds-icon-text-default'>
+<use xlink:href='/assets/icons/utility-sprite/svg/symbols-e6382c2038036b01b4230804b934660723c3fa4f23aab0ef6bfce6541ad19590.svg#clock' xmlns:xlink='http://www.w3.org/1999/xlink'></use>
+</svg>
+</span>
+
+About <b>20</b> mins
+</p>
+</div>
+<div class='slds-m-top_x-large'>
+<h3 class='th-text--small th-text--bold'>
+Topics
+</h3>
+<div class='topic-list-nav slds-m-bottom_large slds-m-top_x-small'>
+<ul class='slds-text-body_small'>
+<li><a href="#learning-objectives">Learning Objectives</a></li><li><a href="#collections">Collections</a></li><li><a href="#lists">Lists</a></li><li><a href="#declare-an-empty-list">Declare an Empty List</a></li><li><a href="#declare-a-list-with-a-set-size">Declare a List with a Set Size</a></li><li><a href="#initialize-a-list">Initialize a List</a></li><li><a href="#demystifying-lists">Demystifying Lists</a></li><li><a href="#resources">Resources</a></li>
+<li class='divider'></li>
+<li class='topic-challenge slds-p-vertical_x-small slds-m-vertical_small'>
+<a class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center slds-p-vertical_x-small" href="#challenge"><span>
+Challenge
+</span>
+<span class='slds-badge th-badge--primary'>
++500 points
+</span>
+</a></li>
+<li class='divider'></li>
+</ul>
+</div>
+
+<h2 class="help-link-heading">Looking for Help?</h2>
+
+<div style="margin-bottom: 16px;">
+    <a
+  data-controller="button-link"
+  class="button-link button-link--has-subtext button-link--flex"
+  href="/trailblazer-community/topics/trailheadchallenges?sort=LAST_MODIFIED_DATE_DESC&search=Use+Collections&ref=unit" target="_blank" data-cta_type="hoc_help_link" data-unit_name="use-collections"
+>
+    <tds-icon symbol="question" class="button-link__icon"></tds-icon>
+
+  <span class="button-link__text">Ask the Community</span>
+</a>
+
+  <p class="button-link__subtext">Expect a response within <strong>24-48</strong> hours from Help or the community.</p>
+
+</div>
+
+<div style="margin-bottom: 16px;">
+  <a
+  data-controller="button-link"
+  class="button-link button-link--flex"
+  href="https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=%2Fs%2Fcase-submission%3FtopicId%3Da6CAE0000003qPO2AY_en_US_P%26badgeName%3Duse-collections" target="_blank" data-trigger_evt_name="toggleModalfeedback_modal" data-prevent_default="true" data-cta_type="help_feedback_link" data-unit_name="use-collections" data-page_location="sidebar" data-locale="en"
+>
+    <tds-icon symbol="answer" class="button-link__icon"></tds-icon>
+
+  <span class="button-link__text">Share Your Feedback</span>
+</a>
+
+
+</div>
+
+
+
+  <div data-controller="sfdc-product-links">
+    <article class="th-sfdc-product-links_container">
+
+          <h4 class="th-sfdc-product-links_heading">
+            Agentforce 360 Platform Resources
+          </h4>
+
+          <aside class="th-sfdc-product-links_link-container">
+            <a target="_blank" data-lang="en" data-api-name="use-collections" data-assessment-type="hoc" data-content-uid="025fde39-1ec9-4a01-de2b-15fd40acd747" data-content-type="Th::Unit" data-cta-type="demo" data-cta-url="https://salesforce.vidyard.com/watch/y5M3io1fZBdsMS5kd1uTTb/?d=701ed000001S6ujAAC" data-title="See Agentforce 360 Platform in action" data-product-name="Agentforce 360 Platform" data-product-name-english="Agentforce 360 Platform" data-product-filter="a4973f7d-37fb-4570-b8a7-a2c55cf49b46" data-component-type="sidebar" data-product-count="1" class="sfdc-product-link" href="https://salesforce.vidyard.com/watch/y5M3io1fZBdsMS5kd1uTTb/?d=701ed000001S6ujAAC">See Agentforce 360 Platform in action</a>
+          </aside>
+          <aside class="th-sfdc-product-links_link-container">
+            <a target="_blank" data-lang="en" data-api-name="use-collections" data-assessment-type="hoc" data-content-uid="025fde39-1ec9-4a01-de2b-15fd40acd747" data-content-type="Th::Unit" data-cta-type="trial" data-cta-url="https://www.salesforce.com/form/signup/freetrial-platform?d=701ed000001R1doAAC" data-title="Start a free Agentforce 360 Platform trial today" data-product-name="Agentforce 360 Platform" data-product-name-english="Agentforce 360 Platform" data-product-filter="a4973f7d-37fb-4570-b8a7-a2c55cf49b46" data-component-type="sidebar" data-product-count="1" class="sfdc-product-link" href="https://www.salesforce.com/form/signup/freetrial-platform?d=701ed000001R1doAAC">Start a free Agentforce 360 Platform trial today</a>
+          </aside>
+          <aside class="th-sfdc-product-links_link-container">
+            <a target="_blank" data-lang="en" data-api-name="use-collections" data-assessment-type="hoc" data-content-uid="025fde39-1ec9-4a01-de2b-15fd40acd747" data-content-type="Th::Unit" data-cta-type="product" data-cta-url="https://salesforce.com/platform?d=701ed000001SBEVAA4" data-title="Learn more about Agentforce 360 Platform" data-product-name="Agentforce 360 Platform" data-product-name-english="Agentforce 360 Platform" data-product-filter="a4973f7d-37fb-4570-b8a7-a2c55cf49b46" data-component-type="sidebar" data-product-count="1" class="sfdc-product-link" href="https://salesforce.com/platform?d=701ed000001SBEVAA4">Learn more about Agentforce 360 Platform</a>
+          </aside>
+    </article>
+
+  </div>
+
+
+</div>
+</div>
+
+</div>
+</div>
+<article class='slds-large-size_9-of-12 slds-size_12-of-12 slds-col'>
+<h1 class='slds-p-top_small slds-text-heading_large'>
+Use Collections
+</h1>
+<div class='unit-content'>
+<h2 id="learning-objectives">Learning Objectives</h2><p>After completing this unit, you’ll be able to:
+</p><ul style="list-style: disc;">
+<li style="list-style-type: inherit;">Declare and initialize a list.
+<br>
+</li>
+<li style="list-style-type: inherit;">Explain two ways to add items to a list.
+<br>
+</li>
+</ul><p><strong>Did you know you can learn from an expert?</strong> Watch this video to find out more about the topics in this module:
+</p><iframe src="https://play.vidyard.com/43hbZLcAwjrizEEXRTvJ39?" title="Video Content" height="513" width="912" allowfullscreen="allowfullscreen" style="margin-bottom:20px"></iframe><h2 id="collections">Collections</h2><p>A collection is a type of variable that can store multiple items. In our tea example, we have a sugar bowl with several sugar cubes inside it. The sugar bowl is considered a collection and the sugar cubes are items that are stored in that collection.
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/92557b15f5815093b371332081a7fb8b_kix.p0thq7ndoyok.png" alt="A sugar bowl labeled collection. Sugar cubes in the sugar bowl are labeled items in the collection." width="489.0" class="image"></p><p>Although there are three types of Apex collections (lists, sets, and maps), in this module we focus on lists.  
+</p><h2 id="lists">Lists</h2><p>An Apex list is an ordered group of items of the same type, like a shopping list. 
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">Tea
+<br>
+</li>
+<li style="list-style-type: inherit;">Sugar
+<br>
+</li>
+<li style="list-style-type: inherit;">Honey
+<br>
+</li>
+<li style="list-style-type: inherit;">Milk
+<br>
+</li>
+</ol><p>Each item in the shopping list is a string, and each item has a position within the list. To declare a list you need a few things. You will use the list reserved word, the data type (all items must be the same data type) within the &lt;&gt; characters, and the reserved word new. At the end of this statement there are required parentheses. 
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/cbdc994e34b6f570e8688eb5debd9dc4_kix.bq26f6wuviaw.png" alt="List &lt;String&gt; groceries = new List &lt;String&gt;();" width="541.5000524934384" class="image"></p><div class="box message info" style="margin-left: 0.0px"><div class="inner"><div class="bd"><div class="media">
+<img src="https://res.cloudinary.com/hy4kyit2a/image/upload/doc/trailhead/en-usb473bb5ea1b7e61dfb07e6a7e547de6b.gif" alt="Note" role="presentation" class="img mtm"><div class="mediaBd"><div class="message-media-content"><p>Reserved words are programming words that have a special meaning and can’t be used as variable names. Words such as new, string, false, null, and many more will give you a syntax error if you try to give a variable the same name.
+</p></div></div>
+</div></div></div></div><h2 id="declare-an-empty-list">Declare an Empty List</h2><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">In the Developer Console, click <strong>Debug</strong> | <strong>Open Execute Anonymous Window</strong>.
+<br>
+</li>
+<li style="list-style-type: inherit;">Copy this code and paste it into the Enter Apex Code window.<br><div><pre>//Declare the groceries list
+List&lt;String&gt; groceries = new List&lt;String&gt;();
+//The output for this statement is an empty list, ().
+System.debug('Groceries Value: ' + groceries);</pre></div>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Open log</strong> checkbox and then click <strong>Execute</strong>. The Execution Log opens, displaying the result of running your code.
+<br>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Debug Only</strong> checkbox at the bottom of the window.
+<br>
+</li>
+</ol><p>When you ran the code, you probably noticed that the output was (). Because you haven’t added anything to the list, it’s empty. When you declared the <code>groceries</code> list, you created a single empty space, ready for items to be added. 
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/439ea8da686ea36be99d2c19e814e5b8_kix.1q67h8e4wit.png" alt="One large empty slot named groceries." width="435.74530183727035" class="image"></p><h2 id="declare-a-list-with-a-set-size">Declare a List with a Set Size</h2><p>If we know exactly how long our list needs to be, we can set the size when we declare the list. We do this by including the size in brackets, [ ], after the data type, like this: 
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/236fc7e35ae0b53aacc87a64d43e8fed_kix.oco6q7u4w3jx.png" alt="String[" width="448.50005249343826" class="image"></p><div class="box message info" style="margin-left: 0.0px"><div class="inner"><div class="bd"><div class="media">
+<img src="https://res.cloudinary.com/hy4kyit2a/image/upload/doc/trailhead/en-usb473bb5ea1b7e61dfb07e6a7e547de6b.gif" alt="Note" role="presentation" class="img mtm"><div class="mediaBd"><div class="message-media-content"><p>There are different ways to declare lists in Apex. This example uses <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_collections_lists.htm" rel="noreferrer noopener" target="_blank">array notation</a> in order to set the list size.
+</p></div></div>
+</div></div></div></div><p>This code declares a list of strings called groceries, and sets its size to 4 strings. The empty groceries list looks like this:
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/97d8032bff3417a6cf6aeb4f4700b1f2_kix.y4bpgz9u9j3o.png" alt="A space named groceries, divided into four slots." width="435.1835170603674" class="image"></p><p>An item’s sequential position is a number called its index. The index is how we reference items. You probably learned to count starting with the number one. In many programming languages, however, counting starts with the number zero! So, now our list will look like this when we write our Apex code. 
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">Tea
+<br>
+</li>
+<li style="list-style-type: inherit;">Sugar
+<br>
+</li>
+<li style="list-style-type: inherit;">Honey
+<br>
+</li>
+<li style="list-style-type: inherit;">Milk
+<br>
+</li>
+</ol><p>The index that you use to point to a certain item in the list will be index 0 for Tea, index 1 for Sugar, index 2 for Honey, and so on. 
+</p><p>You reference a certain item in the list by its index (its position within the list) like this:
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/2f47491428c948ddb413aa5de8d29994_kix.ob4lkswsmx3k.png" alt="groceries[0" width="194.5000524934383" class="image"></p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">In the Developer Console, click <strong>Debug</strong> | <strong>Open Execute Anonymous Window</strong>.
+<br>
+</li>
+<li style="list-style-type: inherit;">Copy this code and paste it into the Enter Apex Code window.<br><div><pre>String[] groceries = new String[4];
+System.debug('Initialized groceries: ' + groceries);
+System.debug('Item 0: ' + groceries[0]);</pre></div>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Open log</strong> checkbox and then click <strong>Execute</strong>. The Execution Log opens, displaying the result of running your code.
+<br>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Debug Only</strong> checkbox at the bottom of the window.
+<br>
+</li>
+</ol><p>The value of the first item in the list is null. Let’s add a few items to the list.
+</p><h2 id="initialize-a-list">Initialize a List</h2><p>Initializing a list is assigning initial values to a list. There are two ways to add items to a list:
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">Declare and initialize a list.<br><div><pre>//Sets the first item in the list to 'Tea'
+List&lt;String&gt; groceries = new List&lt;String&gt;{'Tea'}; </pre></div>
+</li>
+<li style="list-style-type: inherit;">Declare an empty list and add values later.<br><div><pre>List&lt;String&gt; groceries = new List&lt;String&gt;();
+groceries.add('Tea');</pre></div>
+</li>
+</ol><p><strong>Declare and Initialize a List
+</strong></p><p><strong>
+</strong></p><p>The syntax for initializing a list with values is similar to declaring an empty list. The difference is that instead of using parenthesis ( <code>( )</code> ), you use curly braces ( <code>{ }</code> ) to add values. 
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">In the Developer Console, click <strong>Debug</strong> | <strong>Open Execute Anonymous Window</strong>.
+<br>
+</li>
+<li style="list-style-type: inherit;">Copy this code and paste it into the Enter Apex Code window.<br><div><pre>//Declare the groceries list
+List&lt;String&gt; groceries = new List&lt;String&gt;{'Tea','Sugar','Honey','Milk'};
+//The output for this statement is Tea, Sugar, Honey, Milk
+System.debug('Groceries: ' + groceries);</pre></div>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Open log</strong> checkbox and then click <strong>Execute</strong>. The Execution Log opens, displaying the result of running your code.
+<br>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Debug Only</strong> checkbox at the bottom of the window.
+<br>
+</li>
+</ol><p><strong>Declare an Empty List and Add Values Later
+</strong></p><p><strong>
+</strong></p><p>But what if you want to add items later? Apex provides methods that let you work with lists. Let’s use the add method to add grocery items to the groceries list.
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">In the Developer Console, click <strong>Debug</strong> | <strong>Open Execute Anonymous Window</strong>.
+<br>
+</li>
+<li style="list-style-type: inherit;">Copy this code and paste it into the Enter Apex Code window.<br><div><pre>//Create the groceries list
+List&lt;String&gt; groceries = new List&lt;String&gt;();
+//The output for this statement is null
+System.debug('Groceries: ' + groceries);
+//Use the add method to add an element to the list
+groceries.add('Tea');
+groceries.add('Sugar');
+groceries.add('Honey');
+groceries.add(2, 'Milk');
+//The output for this statement is Tea, Sugar, Milk, Honey
+System.debug('Groceries: ' + groceries);</pre></div>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Open log</strong> checkbox and then click <strong>Execute</strong>. The Execution Log opens, displaying the result of running your code.
+<br>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Debug Only</strong> checkbox at the bottom of the window.<br><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/1e8870f3124d212afdf4ef81317b3b5e_kix.or5bmphcqjh1.png" alt="A space named groceries, subdivided into four slots, with one ingredient in each slot: Tea, Sugar, Milk, and Honey." width="364.50005249343826" class="image">
+<br>
+</li>
+</ol><p>Did you notice the dot (“.”)between <code>groceries</code> and <code>add</code>? Apex uses dot notation. Dot notation has several uses. In line 6, we connect the <code>add</code> method (that Apex provides) to the <code>groceries</code> list with a dot to add an item (Tea) to the list.
+</p><p>Line 9 demonstrates another way to add an item to a list, by inserting the item in a specific index (position): 
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/bfbd8ddf9c846e1f985e44f63eaa3e57_kix.altfikz70a61.png" alt="" class="image"><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/20bc001f38c134862f5afaea57273224_kix.mbl8h1qrg980.png" alt="groceries.add(2, ‘Milk’);" width="392.50005249343826" class="image"></p><p>As you continue to work with Apex code, you learn how to determine which method to use. But the basics that you learn in this unit can help you get started. 
+</p><h2 id="demystifying-lists">Demystifying Lists</h2><p>Different ways of adding items to a list produce slightly different results; sometimes unexpected results. Try this exercise.
+</p><ol style="list-style: decimal;">
+<li style="list-style-type: inherit;">In the Developer Console, click <strong>Debug</strong> | <strong>Open Execute Anonymous Window</strong>.
+<br>
+</li>
+<li style="list-style-type: inherit;">Copy this code and paste it into the Enter Apex Code window.<br><div><pre>String[] groceries = new String[4];
+System.debug('Groceries: ' + groceries);
+groceries.add('Tea');
+groceries.add('Sugar');
+System.debug('Added 2 items: ' + groceries);
+groceries.add(1, 'Honey');
+System.debug('Added Honey in index 1: ' + groceries);
+System.debug('Item 0: ' + groceries[0]);</pre></div>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Open log</strong> checkbox and click <strong>Execute</strong>. The Execution Log opens, displaying the result of running your code.
+<br>
+</li>
+<li style="list-style-type: inherit;">Select the <strong>Debug Only </strong>checkbox at the bottom of the window.
+<br>
+</li>
+</ol><p>Interesting results:
+</p><p><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/bfbd8ddf9c846e1f985e44f63eaa3e57_kix.trhc4769d6b6.png" alt="" class="image"><img src="https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/apex-basics-for-admins/use-collections/images/edce665fac3e2f2acf56552be722643f_kix.qhmknn3e0cgl.png" alt="Four debug log events. Line 2 says Initialized groceries: (null, null, null, null). Line 6 says Added 2 items: (null, null, null, null, Tea, Sugar). Line 9 says: Added Honey in index 1: (null, Honey, null, null, null, Tea, Sugar). Line 11 says: Item 0: null." width="630.5000524934384" class="image"></p><p>When we added the two strings in lines 4 and 5, we didn’t specify an index, so Tea and Sugar were added onto the end of the list, increasing the list size from four strings to six strings. In line 8, we explicitly specified index 1 for Honey, so why isn’t Honey first in the list? Remember when programming, we always start counting with 0 instead of 1. In line 11, the first index in the list is 0, which currently contains a <code>null</code> value. 
+</p><p>Writing code is very similar to doing math problems. You have one equation, but there are so many ways to do one thing. In this unit, you learned that there is more than one way to work with lists in Apex. Whether you want to declare a list, initialize a list, or refer to a specific value in a list, how you do it is your choice. Too many options? Don’t worry. When you become more comfortable with Apex, try things different ways, and you’ll begin to understand more about which ways work best in which circumstances.
+</p><h2 id="resources">Resources</h2><ul style="list-style: disc;">
+<li style="list-style-type: inherit;">
+<a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_collections_lists.htm" rel="noreferrer noopener" target="_blank"><em>Apex Developer Guide</em>: Lists</a>
+</li>
+<li style="list-style-type: inherit;">
+<a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_collections.htm" rel="noreferrer noopener" target="_blank"><em>Apex Developer Guide</em>: Collections</a>
+</li>
+<li style="list-style-type: inherit;">
+<a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_reserved_words.htm" rel="noreferrer noopener" target="_blank"><em>Apex Developer Guide</em>: Reserved Keywords</a>
+</li>
+<li style="list-style-type: inherit;">
+<a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_expressions_operators_understanding.htm" rel="noreferrer noopener" target="_blank"><em>Apex Developer Guide</em>: Expression Operators</a>
+</li>
+</ul><p><u>
+</u></p><p><u>
+</u></p>
+</div>
+
+<div id='challenge'>
+<div data-react-class="challenge/Challenge" data-react-props="{&quot;authenticated&quot;:false,&quot;trail_id&quot;:&quot;build-apex-coding-skills&quot;,&quot;journey&quot;:null,&quot;trail&quot;:null,&quot;msa_signed&quot;:false,&quot;challenge&quot;:{&quot;unit_uid&quot;:&quot;0311107d-f28e-2b2c-19ff-c9c9d6fdffc8&quot;,&quot;api_name&quot;:&quot;use-collections&quot;,&quot;content_uid&quot;:&quot;025fde39-1ec9-4a01-de2b-15fd40acd747&quot;,&quot;module_uid&quot;:&quot;025fde39-1ec9-4a37-d2d1-c5e5fae61af7&quot;,&quot;module_api_name&quot;:&quot;apex-basics-for-admins&quot;,&quot;module_annotation&quot;:&quot;none&quot;,&quot;questions&quot;:[],&quot;points_earned&quot;:null,&quot;points&quot;:500.0,&quot;points_next&quot;:250.0,&quot;completed&quot;:false,&quot;attempts&quot;:0,&quot;type&quot;:&quot;assessment&quot;,&quot;description&quot;:&quot;&quot;,&quot;requirements&quot;:[],&quot;title&quot;:&quot;&quot;,&quot;unit_type&quot;:&quot;unit&quot;,&quot;show_recommendations_on_complete&quot;:null,&quot;hide_org_picker&quot;:false,&quot;badge_ratings&quot;:{&quot;show_badge_ratings&quot;:true,&quot;api_name&quot;:&quot;apex-basics-for-admins&quot;,&quot;trackable&quot;:true},&quot;preview_mode&quot;:false,&quot;assessment_evaluation_context&quot;:{&quot;type&quot;:&quot;hoc&quot;,&quot;title&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;requirements&quot;:[],&quot;uuid&quot;:null,&quot;assessment_engine_support&quot;:false,&quot;metadata&quot;:{&quot;authorization_requirements&quot;:{&quot;account_type&quot;:&quot;salesforce_org&quot;}},&quot;authorized_account_type&quot;:&quot;salesforce_org&quot;,&quot;authorized_accounts&quot;:[],&quot;org_template_uri&quot;:null,&quot;org_lease_term&quot;:null,&quot;authorized_email_accounts&quot;:[],&quot;https_endpoint_supported&quot;:false,&quot;slack_unified_identity_enabled&quot;:null,&quot;inventory_limited_custom_org_template_required&quot;:false,&quot;inventory_unlimited_custom_org_template_required&quot;:false},&quot;disconnect_mulesoft_anypoint_account_path&quot;:&quot;/auth/mulesoft_anypoint/delete&quot;},&quot;next_challenge&quot;:{&quot;next_challenge&quot;:{&quot;title&quot;:&quot;Control Data Flow&quot;,&quot;url&quot;:&quot;/content/learn/modules/apex-basics-for-admins/control-data-flow?trail_id=build-apex-coding-skills&quot;},&quot;next_parent&quot;:false,&quot;next_trailmix_item&quot;:false,&quot;all_parents&quot;:{&quot;url&quot;:&quot;/today&quot;,&quot;type&quot;:&quot;module&quot;},&quot;parent_trailmix&quot;:{}},&quot;sharing&quot;:{&quot;app_id&quot;:140586622674265,&quot;content&quot;:{&quot;title&quot;:&quot;Apex Basics for Admins&quot;,&quot;description&quot;:&quot;Learn the fundamentals of the Apex programming language.&quot;},&quot;public&quot;:true},&quot;rewards&quot;:null,&quot;tp_help_link&quot;:&quot;\u003ca rel=\&quot;noopener noreferrer\&quot; target=\&quot;_blank\&quot; href=\&quot;//trailhead.salesforce.com/content/learn/modules/trailhead_playground_management\&quot;\u003eTrailhead Playground Management\u003c/a\u003e&quot;,&quot;namespace_id&quot;:&quot;learn&quot;,&quot;from_learning_path&quot;:true,&quot;learning_path_uri&quot;:&quot;/content/learn/trails/build-apex-coding-skills&quot;,&quot;is_my_trailhead&quot;:null,&quot;user_first_name&quot;:null}" data-react-cache-id="challenge/Challenge-0"></div>
+</div>
+</article>
+</div>
+</div>
+
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"@type":"ListItem","position":1,"name":"Learn","item":"https://trailhead.salesforce.com"},{"@type":"ListItem","position":2,"name":"Build Apex Coding Skills","item":"https://trailhead.salesforce.com/content/learn/trails/build-apex-coding-skills"},{"@type":"ListItem","position":3,"name":"Apex Basics for Admins","item":"https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins?trail_id=build-apex-coding-skills"},{"@type":"ListItem","position":4,"name":"Use Collections"}]
+}
+
+</script>
+
+</div>
+
+</main>
+
+  <th-footer api-path="/api/v1/ui/footer.js" locale=""></th-footer>
+
+</div>
+    <tds-modal
+  data-modal-name-value="feedback_modal"
+  data-modal-cookie-value="true"
+  data-controller="modal"
+  size=""
+  open="false"
+  assistive-text="assistive text"
+  >
+  <div slot="heading">        Share your Trailhead feedback over on Salesforce Help.
+</div>
+  <div slot="content">        <p>We&#39;d love to hear about your experience with Trailhead - you can now access the new feedback form anytime from the Salesforce Help site.</p>
+</div>
+  <div slot="footer">        <div style="display: flex; justify-content: right;">
+          <a
+  data-controller="button-link"
+  class="button-link "
+  href="/help?article=Trailhead-Help-Merge-with-Salesforce-Help-FAQ" target="_blank" data-cta_type="help_feedback_learn_more_link" data-unit_name="use-collections" data-page_location="feedback_modal" data-locale="en"
+>
+
+  <span class="button-link__text">Learn More</span>
+</a>
+
+
+          <a
+  data-controller="button-link"
+  class="button-link button-link--brand"
+  href="https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=%2Fs%2Fcase-submission%3FtopicId%3Da6CAE0000003qPO2AY_en_US_P%26badgeName%3Duse-collections" target="_blank" data-trigger_evt_name="toggleModalfeedback_modal" data-cta_type="help_feedback_continue_link" data-unit_name="use-collections" data-page_location="feedback_modal" data-locale="en"
+>
+
+  <span class="button-link__text">Continue to Share Feedback</span>
+</a>
+
+
+        </div>
+</div>
+</tds-modal>
+
+
+
+
+<script>
+  if (typeof dataLayer === 'undefined') {
+    dataLayer = [];
+  }
+</script>
+<noscript>
+<iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-KJPMZK' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+<script type="text/plain" class="optanon-category-1" charset="UTF-8">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJPMZK');
+
+</script>
+<script>
+  (function(global) {
+    if(!global.Trailhead) {
+      global.Trailhead = {};
+    }
+  
+    global.Trailhead.gtmDebugging = false;
+  })(window);
+</script>
+<script src="/assets/metrics/interaction_tracking-855ada6c1cb4b23a59e6f2b594bd51edf698d582656ea18eb52c1f57c75f2152.js"></script>
+<script type='module'>
+import { setTbidUserInfoResolver } from "https://www.salesforce.com/c/public/app/mjs/identity.js";
+setTbidUserInfoResolver( async () => {
+  const tbid = window.localStorage.getItem('tbid');
+  return { id: tbid };
+});
+</script>
+<div id='interaction-studio-placeholder'></div>
+<script type="text/plain" class="optanon-category-4" charset="UTF-8">let addInteractionStudioBeacon = () => {
+  let isTagSrc = "//cdn.evgnet.com/beacon/salesforce/sf_shared_prod/scripts/evergage.min.js";
+  let isPlaceholder = document.getElementById("interaction-studio-placeholder");
+  let isTag = document.createElement("script");
+  isTag.setAttribute("src", isTagSrc);
+  isTag.setAttribute("defer", true);
+  isPlaceholder.replaceWith(isTag);
+}
+
+let checkIfGaLoaded = () => {
+  return new Promise((resolve, reject) => {
+    let timeStart = Date.now();
+    const TIMEOUT = 5000;
+
+    let _isLoaded = function() {
+      if (Date.now() - timeStart > TIMEOUT) {
+        reject('Timeout. Google analytics expected but not loaded');
+        return;
+      }
+      if (window.ga && ga.create) {
+        resolve();
+        return;
+      } else {
+        setTimeout(_isLoaded, 500);
+      }
+    };
+
+  _isLoaded();
+  });
+}
+
+checkIfGaLoaded().then(addInteractionStudioBeacon, console.error);
+
+</script>
+
+
+<style>
+:root {
+  --tds-z-index-toast: 90000;
+  --tds-toaster-offset-top: 150px;
+}
+</style>
+
+
+<tds-toaster></tds-toaster>
+
+<script src="/packs/js/toaster-adc4e78cba953c53f907.js" defer="defer"></script>
+
+<script>
+  var Trailhead = Trailhead || {};
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "/home/phaedrus/.GH/Qompass/Salesforce/th/apex"
+    }
+  ],
+  "settings": {
+    "eslint.workingDirectories": [
+      "/home/phaedrus/.GH/Qompass/Salesforce/th/apex"
+    ],
+    "eslint.nodePath": "~/tools/eslint-tool/1.0.3/node_modules",
+    "eslint.validate": [
+      "javascript",
+      "typescript"
+    ],
+    "eslint.options": {
+      "overrideConfigFile": "/home/phaedrus/.GH/Qompass/Salesforce/th/apex/.eslintrc.json"
+    }
+  }
+}
