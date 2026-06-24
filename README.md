@@ -1,4 +1,4 @@
-<!----------/qompassai/dotfiles/README.md ---------------->
+<!----------/qompassai/salesforce/README.md ---------------->
 <!-- ----------Qompass AI Salesforce ----------------------->
 <!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
 <!-------------------------------------------------------->

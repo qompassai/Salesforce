@@ -1,0 +1,194 @@
+# code-analyzer.yml
+configroot: null
+engines:
+  cpd:
+    disableengine: false
+    fileextensions:
+      apex:
+        - .cls
+        - .trigger
+      html:
+        - .cmp
+        - .htm
+        - .html
+        - .shtml
+        - .xht
+        - .xhtml
+      javascript:
+        - .cjs
+        - .js
+        - .mjs
+      typescript:
+        - .ts
+      visualforce:
+        - .component
+        - .page
+      xml:
+        - .xml
+    javacommand: null
+    minimumtokens:
+      apex: 100
+      html: 100
+      javascript: 100
+      typescript: 100
+      visualforce: 100
+      xml: 100
+    skipduplicatefiles: false
+  eslint:
+    autodiscovereslintconfig: false
+    disableengine: false
+    disablejavascriptbaseconfig: false
+    disablelwcbaseconfig: false
+    disablereactbaseconfig: false
+    disablesldsbaseconfig: false
+    disabletypescriptbaseconfig: false
+    eslintconfigfile: null
+    eslintignorefile: null
+    fileextensions:
+      css:
+        - .css
+        - .scss
+      html:
+        - .cmp
+        - .htm
+        - .html
+      javascript:
+        - .cjs
+        - .js
+        - .jsx
+        - .mjs
+      other:
+      typescript:
+        - .ts
+        - .tsx
+  flow:
+    disableengine: false
+    pythoncommand: null
+  pmd:
+    customrulesets:
+    disableengine: false
+    fileextensions:
+      apex:
+        - .cls
+        - .trigger
+      html:
+        - .cmp
+        - .htm
+        - .html
+        - .shtml
+        - .xht
+        - .xhtml
+      javascript:
+        - .cjs
+        - .js
+        - .mjs
+      typescript:
+        - .ts
+      visualforce:
+        - .component
+        - .page
+      xml:
+        - .xml
+    javaclasspathentries:
+    javacommand: null
+  regex:
+    customrules:
+      AvoidDebugStatements:
+        description: Detects debugger statements left in JavaScript or TypeScript.
+        fileextensions:
+          - .cjs
+          - .js
+          - .jsx
+          - .mjs
+          - .ts
+          - .tsx
+        regex: '\bdebugger\b'
+        severity: Moderate
+        tags:
+          - Recommended
+          - TechDebt
+        violationmessage: Remove debugger statements before committing code.
+      AvoidTodoCommentsInApex:
+        description: Detects TODO comments in Apex code.
+        fileextensions:
+          - .cls
+          - .trigger
+        regex: 'TODO'
+        severity: Info
+        tags:
+          - Recommended
+          - TechDebt
+        violationmessage: Remove TODO comments from Apex before merge.
+      HardcodedHttpUrls:
+        description: Detects hardcoded insecure HTTP URLs in source files.
+        fileextensions:
+          - .cls
+          - .component
+          - .js
+          - .page
+          - .trigger
+        regex: 'http://[^"''\s]+'
+        severity: High
+        tags:
+          - Recommended
+          - Security
+        violationmessage: Replace insecure HTTP URLs with HTTPS or configuration-based endpoints.
+      PotentialConsoleLogging:
+        description: Detects console logging in JavaScript and TypeScript sources.
+        fileextensions:
+          - .cjs
+          - .js
+          - .jsx
+          - .mjs
+          - .ts
+          - .tsx
+        regex: 'console\.(debug|error|info|log|trace|warn)\s*\('
+        severity: Low
+        tags:
+          - Recommended
+          - TechDebt
+        violationmessage: Remove or gate console logging before production deployment.
+    disableengine: false
+  retire-js:
+    disableengine: false
+  sfge:
+    disableengine: false
+    disablelimitreachedviolations: false
+    javacommand: null
+    javamaxheapsize: null
+    javathreadcount: 8
+    javathreadtimeout: 30000
+ignores:
+  files:
+    - '**/.git/**'
+    - '**/.sfdx/**'
+    - '**/.sf/**'
+    - '**/.yarn/**'
+    - '**/coverage/**'
+    - '**/dist/**'
+    - '**/generated/**'
+    - '**/node_modules/**'
+    - '**/tmp/**'
+logfolder: null
+loglevel: 4
+rules:
+  cpd: 
+  eslint:
+    no-console:
+      severity: Low
+      tags:
+        - Recommended
+        - TechDebt
+    no-debugger:
+      severity: Moderate
+      tags:
+        - Recommended
+        - Security
+  flow: 
+  pmd: 
+  regex: 
+  retire-js: 
+  sfge: 
+suppressions:
+  disablesuppressions: false
+  filepath: 
