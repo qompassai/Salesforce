@@ -1,34 +1,34 @@
-#!/usr/bin/env lua5.1
--- /qompassai/Diver/lsp/agentscript_ls.lua
--- Qompass AI Agent Script LSP Config
+#!/usr/bin/env lua
+-- /qompassai/Diver/lsp/soql_ls.lua
+-- Qompass AI SOQL LSP Config
 -- Copyright (C) 2026 Qompass AI, All rights reserved
 -- --------------------------------------------------
----@source [https://marketplace.visualstudio.com/items?itemName=salesforce.agent-script-language-client](https://marketplace.visualstudio.com/items?itemName=salesforce.agent-script-language-client)
+---@source [https://www.npmjs.com/package/@salesforce/soql-language-server](https://www.npmjs.com/package/@salesforce/soql-language-server)
 return ---@type vim.lsp.Config
 {
     cmd = {
-        'agentscript-language-server',
+        'soql-language-server',
         '--stdio',
     },
     filetypes = {
-        'agent',
-        'agentscript',
+        'soql',
+        'sosl',
     },
     root_markers = {
         '.git',
+        'sfdx-project.json',
         'package.json',
         'pnpm-workspace.yaml',
-        'sfdx-project.json',
     },
     settings = {
-        agentscript = {
+        soql = {
             enable_completion = true,
             enable_diagnostics = true,
-            enable_document_symbols = true,
-            enable_formatting = true,
+            enable_go_to_definition = true,
             enable_hover = true,
             enable_references = true,
             enable_rename = true,
+            enable_symbols = true,
             enable_validation = true,
         },
     },
